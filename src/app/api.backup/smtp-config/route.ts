@@ -1,18 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getDb } from '@/lib/db';
+import { getDb, SmtpConfig } from '@/lib/db';
 
 export async function GET() {
   try {
     const db = await getDb();
-    const [[config]] = await db.execute('SELECT * FROM smtp_config WHERE active = 1 LIMIT 1') as any;
+    const config = db
+      await db.execute('SELECT * FROM smtp_config WHERE active = 1 LIMIT 1')
+      .get() as SmtpConfig | undefined;
 
     if (!config) {
       return NextResponse.json(
-        { success: false, message: 'No SMTP config' },
+        { success: false, message: 'No SMTP config found' },
         { status: 404 }
       );
     }
 
+    // Nedávame heslo v odpovedi
     const { password, ...safeConfig } = config;
     return NextResponse.json({ success: true, config: safeConfig });
   } catch (error) {
@@ -36,12 +39,15 @@ export async function POST(request: NextRequest) {
     }
 
     const db = await getDb();
-    await db.execute('UPDATE smtp_config SET active = 0');
-    await db.execute(
+
+    // Deaktivovať všetky staré configs
+    dbawait db.execute('UPDATE smtp_config SET active = 0')));
+
+    // Vložiť nový
+    dbawait db.execute(
       `INSERT INTO smtp_config (host, port, user, password, from_email, active) 
-       VALUES (?, ?, ?, ?, ?, 1)`,
-      [host, port, user, password, from_email]
-    );
+       VALUES (?, ?, ?, ?, ?, 1)`
+    ))host, port, user, password, from_email);
 
     return NextResponse.json({ success: true, message: 'SMTP config saved' });
   } catch (error) {

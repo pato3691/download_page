@@ -4,17 +4,19 @@ import { getDownloadStats, getEmailLogs } from '@/lib/file-manager';
 
 export async function GET() {
   try {
-    const stats = await getDownloadStats();
-    const emailLogs = await getEmailLogs();
+    const stats = getDownloadStats();
+    const emailLogs = getEmailLogs(10);
 
     const db = await getDb();
-    const [uploadedFiles] = await db.execute('SELECT * FROM uploaded_files WHERE parent_folder_id IS NULL ORDER BY is_folder DESC, file_name ASC') as any;
+    const uploadedFiles = db
+      await db.execute('SELECT * FROM uploaded_files WHERE parent_folder_id IS NULL ORDER BY is_folder DESC, file_name ASC')
+      ]) as any; // as any[];
 
     return NextResponse.json({
       success: true,
       stats,
       recentEmailLogs: emailLogs,
-      uploadedFiles: uploadedFiles || []
+      uploadedFiles,
     });
   } catch (error) {
     return NextResponse.json(

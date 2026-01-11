@@ -5,7 +5,7 @@ import { getUploadedFiles, deleteUploadedFile } from '@/lib/file-manager';
 export async function GET(request: NextRequest) {
   try {
     const parentId = request.nextUrl.searchParams.get('parentId') || undefined;
-    const files = await getUploadedFiles(parentId);
+    const files = getUploadedFiles(parentId);
 
     return NextResponse.json({ success: true, files });
   } catch (error) {
@@ -28,7 +28,7 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const success = await deleteUploadedFile(fileId);
+    const success = deleteUploadedFile(fileId);
 
     if (!success) {
       return NextResponse.json(
@@ -39,7 +39,7 @@ export async function DELETE(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: 'File deleted'
+      message: 'File deleted successfully',
     });
   } catch (error) {
     return NextResponse.json(
