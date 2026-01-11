@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+	<link type="text/css" href="css/style.min.css?v2.1.1" rel="stylesheet"/>
+		<link type="text/css" href="css/theme_original.css" rel="stylesheet"/>
+	<link type="text/css" href="web/css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="/css/materialicons.min.css">
+	<title>Octagon SF8008 4K UHD - OpenWebif</title>
+</head>
+<body class="original">
+	<div id="container">
+		<div id="header">
+			<h1><a href="/">Open<span class="ui-state-active">Webif</span></a></h1>
+			<h2>Open Source Web Interface pro linuxový set-top box<br/><span class="ui-state-active" onclick="load_maincontent('ajax/boxinfo'); return false">Octagon SF8008 4K UHD</span></h2>
+			<div id="statusheader">
+				<div id="osd">Nic se nepřehrává.</div>
+				<div id="osd_status"></div>
+				<div id="osd_bottom"></div>
+			</div>
+		</div>
+
+		<div id="leftmenu" class="ui-widget-content">
+			<div id="menucontainer">
+				<div class="some-leftmenu-main">
+	<div class="some-leftmenu-top ui-widget-header" onclick="toggleMenu('main');">
+		Hlavní
+		<div id="leftmenu_expander_main" class="ui-selectmenu-icon ui-icon ui-icon-caret-1-s"></div>
+	</div>
+	<div id="leftmenu_container_main" style="display: initial">
+	<ul>
+	<li><a class="lmc" href="ajax/tv">Televize</a></li>
+	<li><a class="lmc" href="ajax/radio">Rádio</a></li>
+	<li><a class="lmc spin" href="ajax/movies">Filmy</a></li>
+	<li><a class="lmc" href="ajax/timers">Časovače</a></li>
+	<li><a class="lmc" href="ajax/webtv">Web TV</a></li>
+</ul>
+
+	</div>
+</div>
+
+				<div class="some-leftmenu-main">
+	<div class="some-leftmenu-top ui-widget-header" onclick="toggleMenu('remote');">
+		Ovladač
+		<div id="leftmenu_expander_remote" class="ui-selectmenu-icon ui-icon ui-icon-caret-1-s"></div>
+	</div>
+	<div id="leftmenu_container_remote" style="display: initial">
+	<div style="width:100%; text-align:center;">
+		<ul>
+		<li style="margin-bottom:5px;margin-top:5px;">
+		<div class="tbl"><div>
+		<div><a class="fbb" href='#' title=Napájení onclick="load_dm('ajax/powerstate','Napájení');this.blur();return false;"><i class="fa fa-power-off" aria-hidden="true"></i></a></div>
+	<!--<div><a class="lmc fbb" href="ajax/screenshot" title=Snímek&nbsp;obrazovky><i class="fa fa-camera-retro" aria-hidden="true"></i></a></div> -->
+		<div><a class="fbb" href='#' title=Odeslat&nbsp;zprávu onclick="load_message_dm('ajax/message','Odeslat zprávu');this.blur();return false;"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+		<div style="width: 30px;"><a class="fbb" href="#" title="Text" onclick="InputText();return false;" style="font-style: italic;font-size: 20px;text-align: center;text-decoration: underline;">T</a></div>
+		<div><a class="fbb" href='#' title=Úplný&nbsp;ovladač onclick="toggleFullRemote();return false;"><i class="fa fa-expand" aria-hidden="true"></i></a></div>
+		</div></div>
+		</li>
+		</ul>
+		<div class="ui-widget-header" style="border-bottom: none;background: none;margin-left: 5px;margin-right: 5px;"></div>
+		<table class="remotesmall" style="height:100px;">
+		<tr>
+			<td data-code="2"><button>1</button></td><td data-code="3"><button>2</button></td><td data-code="4"><button>3</button></td>
+		<tr>
+		<tr>
+			<td data-code="5"><button>4</button></td><td data-code="6"><button>5</button></td><td data-code="7"><button>6</button></td>
+		<tr>
+		<tr>
+			<td data-code="8"><button>7</button></td><td data-code="9"><button>8</button></td><td data-code="10"><button>9</button></td>
+		<tr>
+		<tr>
+			<td data-code="412" class="tdc bgray"><button>&lt;</button></td><td data-code="11"><button>0</button></td><td data-code="407" class="tdc bgray"><button>&gt;</button></td>
+		<tr>
+		</table>
+		<table class="remotesmall" style="height:20px;">
+		<tr>
+			<td data-code="398" class="tdc" style="background:red"><button></button></td>
+			<td data-code="399" class="tdc" style="background:green"><button></button></td>
+			<td data-code="400" class="tdc" style="background:#f5f501"><button></button></td>
+			<td data-code="401" class="tdc" style="background:#1a2cbd"><button></button></td>
+		<tr>
+		</table>
+		<table class="remotesmall" style="height:80px;">
+		<tr>
+			<td data-code="139"><button>Menu</button></td><td data-code="103" class="bgray"><button>&#x25B2;</button></td><td data-code="174"><button>Exit</button></td>
+		<tr>
+		<tr>
+			<td data-code="105" class="bgray"><button>&#x25C0;</button></td><td data-code="352" class="bgray"><button>OK</button></td><td data-code="106" class="bgray"><button>&#x25B6;</button></td>
+		<tr>
+		<tr>
+			<td data-code="358"><button>Info</button></td><td data-code="108" class="bgray"><button>&#x25BC;</button></td><td data-code="365"><button>EPG</button></td>
+		<tr>
+		</table>
+			<table class="remotesmall" style="height:20px;">
+			<tr>
+				<td data-code="393" class="tdf"><button>PVR</button></td>
+				<td data-code="377" class="tdf"><button>TV</button></td>
+				<td data-code="388" class="tdf"><button>Text</button></td>
+				<td data-code="138" class="tdf"><button>Help</button></td>
+			<tr>
+			</table>
+	<div class="help">
+		(dlouhý stisk = shift + klik)
+	</div>
+	<ul>
+		<li style="margin-bottom:5px;margin-top:5px;">
+			<input type="checkbox" class="remotegrabscreen" name="remotegrabscreen1" title="Povolit/zakázat snímek obrazovky při stisku tlačítka nebo" /><span style="cursor:pointer;" title="Snímek obrazovky" onclick="load_maincontent('ajax/screenshot');return false;">Snímek obrazovky</span>
+		</li>
+	</ul>
+	<div class="volslider" style="display:table-row;margin-bottom:15px">
+		<div style="display:table-cell;vertical-align: middle;"><img style="margin-left:5px;" id="volimage" src="images/volume.png" title="" border="0" width="24" height="24">
+		</div>
+		<div style="vertical-align: middle;display:table-cell;">
+			<div id="slider" style="margin-left:10px;margin-right:10px;width:90px;"></div>
+		</div>
+		<div style="vertical-align: middle;display:table-cell;">
+			<input readonly class="ui-state-active" style="border:none;font-weight:bold;width:22px;user-select: none;" type="text" id="amount"/>
+		</div>
+	</div>
+	<div style="margin-bottom:5px;"></div>
+</div>
+
+	</div>
+</div>
+
+				<div class="some-leftmenu-main">
+	<div class="some-leftmenu-top ui-widget-header" onclick="toggleMenu('extras');">
+		Další
+		<div id="leftmenu_expander_extras" class="ui-selectmenu-icon ui-icon ui-icon-caret-1-s"></div>
+	</div>
+	<div id="leftmenu_container_extras" style="display: initial">
+	<ul>
+	<li><a class="lmc" href="ajax/about">O prohlížeči</a></li>
+	<li><a class="lmc" href="ajax/boxinfo">O přijímači</a></li>
+			<li><a class="lmc" href="ajax/settings">Nastavení</a></li>
+			<li><a href="http://mainoctagon741.aniq.eu:54326" target='_blank'>OSCam Webinterface</a></li>
+			<li><a class="lmc" href="ajax/at">Přehled AutoTimerů</a></li>
+			<li><a class="lmc" href="ajax/bqe">Editor přehledů</a></li>
+			<li><a class="lmc" href="ajax/terminal">Terminal</a></li>
+</ul>
+
+	</div>
+</div>
+
+				<div class="some-leftmenu-main">
+	<div class="some-leftmenu-top ui-widget-header" onclick="toggleMenu('search');">
+		Search EPG
+		<div id="leftmenu_expander_search" class="ui-selectmenu-icon ui-icon ui-icon-caret-1-s"></div>
+	</div>
+	<div id="leftmenu_container_search" style="display: initial">
+	<ul>
+	<li><input type="checkbox" name="epgsearchtype" />Včetně popisu</li>
+	<li><input type="checkbox" name="epgsearchbouquetsonly" />Omezit na přehledy</li>
+</ul>
+<form action="" onSubmit="open_epg_search_dialog(); return false;">
+	<div style="width:100%; text-align:center; padding-top:5px;"><input type="text" id="epgSearch" size="14" /></div>
+	<div style="width:100%; text-align:center;padding-top:5px; padding-bottom:7px;" class="epgsearch"><button>Hledat</button></div>
+</form>
+
+	</div>
+</div>
+
+			</div>
+
+			<div id="remotecontainer" style="display: none;">
+				<div class="some-leftmenu-main">
+					<div class="some-leftmenu-top ui-widget-header">Ovladač</div>
+					<div style="width:100%; text-align:center;">
+						<ul>
+							<li style="margin-bottom:5px;">
+								<div class="tbl"><div>
+								<div><a class="fbb" href='#' title=Napájení onclick="load_dm('ajax/powerstate','Napájení');this.blur();return false;"><i class="fa fa-power-off" aria-hidden="true"></i></a></div>
+							<!--<div><a class="fbb" href='#' title=Snímek&nbsp;obrazovky onclick="load_maincontent('ajax/screenshot');return false;"><i class="fa fa-camera-retro" aria-hidden="true"></i></a></div> -->
+								<div><a class="fbb" href='#' title=Odeslat&nbsp;zprávu onclick="load_message_dm('ajax/message','Odeslat zprávu');this.blur();return false;"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+								<div style="width: 30px;"><a class="fbb" href="#" title="Text" onclick="InputText();return false;" style="font-style: italic;font-size: 20px;text-align: center;text-decoration: underline;">T</a></div>
+								<div><a class="fbb" href='#' title=Obecný&nbsp;ovladač onclick="toggleFullRemote();return false;"><i class="fa fa-compress" aria-hidden="true"></i></a></div>
+								</div></div>
+							</li>
+						</ul>
+						<div class="ui-widget-header" style="border-bottom: none;background: none;margin-left: 5px;margin-right: 5px;"></div>
+						<table class="remotesmall" style="height:100px;">
+						<tr>
+							<td data-code="2"><button>1</button></td><td data-code="3"><button>2</button></td><td data-code="4"><button>3</button></td>
+						<tr>
+						<tr>
+							<td data-code="5"><button>4</button></td><td data-code="6"><button>5</button></td><td data-code="7"><button>6</button></td>
+						<tr>
+						<tr>
+							<td data-code="8"><button>7</button></td><td data-code="9"><button>8</button></td><td data-code="10"><button>9</button></td>
+						<tr>
+						<tr>
+							<td data-code="412" class="tdc bgray"><button>&lt;</button></td><td data-code="11"><button>0</button></td><td data-code="407" class="tdc bgray"><button>&gt;</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="398" class="tdc" style="background:red"><button></button></td>
+							<td data-code="399" class="tdc" style="background:green"><button></button></td>
+							<td data-code="400" class="tdc" style="background:#f5f501"><button></button></td>
+							<td data-code="401" class="tdc" style="background:#1a2cbd"><button></button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:80px;">
+						<tr>
+							<td data-code="139"><button>Menu</button></td><td data-code="103" class="bgray"><button>&#x25B2;</button></td><td data-code="174"><button>Exit</button></td>
+						<tr>
+						<tr>
+							<td data-code="105" class="bgray"><button>&#x25C0;</button></td><td data-code="352" class="bgray"><button>OK</button></td><td data-code="106" class="bgray"><button>&#x25B6;</button></td>
+						<tr>
+						<tr>
+							<td data-code="358"><button>Info</button></td><td data-code="108" class="bgray"><button>&#x25BC;</button></td><td data-code="365"><button>EPG</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="115"><button>Vol+</button></td>
+							<td data-code="113"><button>Mute</button></td>
+							<td data-code="402"><button>CH+</button></td>
+						<tr>
+						<tr>
+							<td data-code="114"><button>Vol-</button></td>
+							<td data-code="388"><button class="_12">History</button></td>
+							<td data-code="403"><button>CH-</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="168" class="tdf"><button><span class="material-icons">fast_rewind</span></button></td>
+							<td data-code="207" class="tdf"><button><span class="material-icons">play_arrow</span></button></td>
+							<td data-code="119" class="tdf"><button><span class="material-icons">pause</span></button></td>
+							<td data-code="208" class="tdf"><button><span class="material-icons">fast_forward</span></button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="165" class="tdf"><button><span class="material-icons">skip_previous</span></button></td>
+							<td data-code="167" class="tdf"><button><span class="material-icons" style="color:red;">fiber_manual_record</span></button></td>
+							<td data-code="128" class="tdf"><button><span class="material-icons">stop</span></button></td>
+							<td data-code="163" class="tdf"><button><span class="material-icons">skip_next</span></button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="388" class="tdf"><button class="_12">Text</button></td>
+							<td data-code="392" class="tdf"><button class="_12">Audio</button></td>
+							<td data-code="370" class="tdf"><button class="_12">Sub</button></td>
+							<td data-code="393" class="tdf"><button class="_12">Video</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="366" class="tdf"><button>PVR</button></td>
+							<td data-code="377" class="tdf"><button>TV</button></td>
+							<td data-code="385" class="tdf"><button class="_12">Radio</button></td>
+							<td data-code="138" class="tdf"><button>Help</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="141" class="tdf"><button class="_12">Setup</button></td>
+							<td data-code="156" class="tdf"><button class="_11">Portal</button></td>
+							<td data-code="142" class="tdf"><button class="_12">Sleep</button></td>
+							<td data-code="359" class="tdf"><button class="_12">Timer</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="59" class="tdf"><button>F1</button></td>
+							<td data-code="60" class="tdf"><button>F2</button></td>
+							<td data-code="364" class="tdf"><button>Fav</button></td>
+							<td data-code="375" class="tdf"><button>PIP</button></td>
+						<tr>
+						</table>
+						<table class="remotesmall" style="height:20px;">
+						<tr>
+							<td data-code="158" class="tdf"><button class="_12">Back</button></td>
+							<td data-code="357" class="tdf"><button class="_12">Opt</button></td>
+							<td data-code="438" class="tdf"><button class="_10">Context</button></td>
+							<td data-code="373" class="tdf"><button class="_10">Aspect</button></td>
+						<tr>
+						</table>
+						<div class="help">
+							(dlouhý stisk = shift + klik)
+						</div>
+						<ul>
+							<li style="margin-bottom:5px;">
+							<input type="checkbox" class="remotegrabscreen" name="remotegrabscreen2" title="Povolit/zakázat snímek obrazovky při stisku tlačítka nebo" /><span style="cursor:pointer;" title="Snímek obrazovky" onclick="load_maincontent('ajax/screenshot');return false;">Snímek obrazovky</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+			<div id="content_container">
+			<div id='spinner'><div class='fa fa-spinner fa-spin'></div></div>
+
+			</div>
+		</div>
+	</div>
+	<form name="portForm" action="web/stream.m3u" method="GET" target="_blank">
+		<input type="hidden" name="ref">
+		<input type="hidden" name="name">
+		<input type="hidden" name="device">
+		<input type="hidden" name="fname">
+	</form>
+	<form name="portFormTs" action="web/ts.m3u" method="GET" target="_blank">
+		<input type="hidden" name="file">
+		<input type="hidden" name="device">
+	</form>
+	<div id="modaldialog"></div>
+	<div id="dialog" title="Work in progress" style="display:none">
+		<p>Sorry, this function is not yet implemented.</p>
+	</div>
+	<div id="editTimerForm" title="Upravit časovač"></div>
+
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.13.2.min.js"></script>
+	<script type="text/javascript" src="js/openwebif.min.js?v2.1.1"></script>
+	<script type="text/javascript" src="js/jquery-ui-timepicker-addon.min.js"></script>
+	<script type="text/javascript" src="/js/chosen-1.8.7.jquery.min.js"></script>
+	<script type="text/javascript">initJsTranslation({"mo": "Po", "tu": "\u00dat", "we": "St", "th": "\u010ct", "fr": "P\u00e1", "sa": "So", "su": "Ne", "day_0": "Ne", "day_1": "Po", "day_2": "\u00dat", "day_3": "St", "day_4": "\u010ct", "day_5": "P\u00e1", "day_6": "So", "monday": "Pond\u011bl\u00ed", "tuesday": "\u00dater\u00fd", "wednesday": "Str\u0159eda", "thursday": "\u010ctvrtek", "friday": "P\u00e1tek", "saturday": "Sobota", "sunday": "Ned\u011ble", "month_01": "Leden", "month_02": "\u00danor", "month_03": "B\u0159ezen", "month_04": "Duben", "month_05": "Kv\u011bten", "month_06": "\u010cerven", "month_07": "\u010cervenec", "month_08": "Srpen", "month_09": "Z\u00e1\u0159\u00ed", "month_10": "\u0158\u00edjen", "month_11": "Listopad", "month_12": "Prosinec", "about": "O prohl\u00ed\u017ee\u010di", "add_timer": "P\u0159idat \u010dasova\u010d", "add_autotimer": "P\u0159idat AutoTimer", "add_zaptimer": "P\u0159idat \u010dasova\u010d p\u0159epnut\u00ed", "after_event": "Po skon\u010den\u00ed", "agc": "AGC", "all": "V\u0161e", "all_channels": "V\u0161echny kan\u00e1ly", "audio_encoding": "Audio Encoding", "audio_track": "Audio Track", "authors": "Auto\u0159i", "auto": "Auto", "back": "Zp\u011bt", "begin": "Za\u010d\u00e1tek", "ber": "BER", "bouquets": "P\u0159ehledy", "box_info": "O p\u0159ij\u00edma\u010di", "box": "P\u0159ij\u00edma\u010d", "boxcontrol": "Ovl\u00e1d\u00e1n\u00ed boxu", "box_uptime": "Doba provozu", "brand": "Zna\u010dka", "cancel": "Zav\u0159\u00edt", "capacity": "Kapacita", "channel": "Kan\u00e1l", "channels": "Kan\u00e1ly", "chipset": "Chipset", "cleanup_timer": "Vy\u010distit \u010dasova\u010de", "close": "Zav\u0159\u00edt", "contributors": "Spolupracovn\u00edci", "control": "Control", "current": "Aktu\u00e1ln\u00ed", "current_event": "Aktu\u00e1ln\u00ed ud\u00e1lost", "next_event": "Next Event", "date": "Datum", "deep_standby": "Hlubok\u00fd sp\u00e1nek", "default": "Standardn\u00ed", "delete": "Odstranit", "delete_recording": "Odstranit nahr\u00e1vku", "delete_recording_question": "Opravdu smazat tuto nahr\u00e1vku?", "copy_recording": "Copy Recording", "copy_recording_question": "Are you sure you want to copy this recording?", "move_recording": "Move Recording", "move_recording_question": "Are you sure you want to move this recording?", "delete_timer": "Odstranit \u010dasova\u010d", "delete_timer_question": "Opravdu odstranit tento \u010dasova\u010d?", "description": "Popis", "dhcp": "DHCP", "disable_timer": "Zak\u00e1zat \u010dasova\u010d", "disabled": "zak\u00e1z\u00e1no", "distro_version": "Distro", "dolby": "Dolby", "done": "Dokon\u010deno", "download": "St\u00e1hnout", "download_playlist": "St\u00e1hnout playlist pro", "driver_date": "Ovlada\u010de", "duration": "D\u00e9lka", "edit_timer": "Upravit \u010dasova\u010d", "enable_timer": "Povolit \u010dasova\u010d", "start": "Za\u010d\u00e1tek", "end": "Konec", "enable": "Povolit", "enable_disable": "Povolit / Zak\u00e1zat", "enabled": "Povolen", "encrypted": "K\u00f3dov\u00e1no", "epg": "EPG", "epgsearch": "Search EPG", "epgsearchextended": "V\u010detn\u011b popisu", "epgsearchbouquetsonly": "Omezit na p\u0159ehledy", "epg_no_matches": "Z\u00e1dn\u00e9 odpov\u00eddaj\u00edc\u00ed v\u00fdsledky pro hled\u00e1n\u00ed", "error": "Chyba", "every_timer": "Ka\u017ed\u00fd", "extras": "Dal\u0161\u00ed", "find_similar_events": "Find similar events", "finished": "dokon\u010deno", "firmware_version": "Firmware", "fp_version": "Verze frontprocesoru", "free": "Voln\u00e9 m\u00edsto", "free_memory": "Voln\u00e1 pam\u011b\u0165", "gateway": "Br\u00e1na", "grabscreenshot": "Sn\u00edmek obrazovky", "gui_version": "Enigma", "hidefullremote": "Obecn\u00fd ovlada\u010d", "high_resolution": "Vysok\u00e9 rozli\u0161en\u00ed", "hdd_model": "HDD model", "hour": "Hodiny", "ipv4_address": "IPv4 adresa", "ipv4only_kernel": "IPv4-only kernel", "ipv4only_network": "\u017e\u00e1dn\u00e1/pouze IPv4 s\u00ed\u0165", "ipv4only_python": "IPv4-only Python/Twisted", "ipv6_address": "IPv6 adresa(y)", "info": "Informace", "instant_record": "Okam\u017eit\u00e9 nahr\u00e1v\u00e1n\u00ed", "ask_instant_record": "Opravdu spustit okam\u017eit\u00e9 nahr\u00e1v\u00e1n\u00ed?", "javalib": "Javascript knihovny", "just_play": "Jen p\u0159epnout", "kernel_version": "Verze j\u00e1dra", "lcd": "LCD", "license": "License", "loading": "na\u010d\u00edt\u00e1m", "location": "Um\u00edst\u011bn\u00ed", "locked": "Zamknuto", "mac_address": "MAC adresa", "main": "Hlavn\u00ed", "minute": "Minuty", "mins": "mins", "model": "Model", "more_details": "V\u00edce detail\u016f", "movielist": "Seznam film\u016f", "movies": "Filmy", "multi_epg": "MultiEPG", "name": "N\u00e1zev", "namespace": "Namespace", "network_interface": "S\u00ed\u0165ov\u00fd adapt\u00e9r", "no_description_available": "popis nen\u00ed k dispozici", "no_epg_data": "EPG data nejsou k dispozici", "not_implemented": "Tato str\u00e1nka nen\u00ed zat\u00edm implementov\u00e1na", "nothing": "Nic", "nothing_play": "Nic se nep\u0159ehr\u00e1v\u00e1.", "now": "Nyn\u00ed", "oe_version": "System OE", "on": "Zapnuto", "openwebif_header": "Open Source Web Interface pro linuxov\u00fd set-top box", "show_boxname": "Zobrazovat v z\u00e1hlav\u00ed n\u00e1zev p\u0159ij\u00edma\u010de", "use_custom_boxname": "Pou\u017e\u00edt vlastn\u00ed n\u00e1zev p\u0159ij\u00edma\u010de", "custom_boxname": "Vlastn\u00ed n\u00e1zev p\u0159ij\u00edma\u010de", "osd": "OSD", "open_in_new_window": "Otev\u0159\u00edt v nov\u00e9m okn\u011b", "pip": "PiP", "playback": "P\u0159ehr\u00e1t", "playlist": "Seznam skladeb", "powercontrol": "Nap\u00e1jen\u00ed", "provider": "Poskytovatel", "providers": "Poskytovatel\u00e9", "radio": "R\u00e1dio", "reboot_box": "Restartovat Box", "rec_status": "Z\u00e1znam", "refresh": "Aktualizovat", "refresh_auto": "Aktualizovat ka\u017ed\u00fdch", "refresh_timer": "Aktualizovat", "remote": "Ovlada\u010d", "rename_recording": "P\u0159ejmenovat nahr\u00e1vku", "rename_recording_question": "P\u0159ejmenovat nahr\u00e1vku?", "repeated": "Opakov\u00e1n\u00ed", "restart_gui": "Restart Enigma", "running": "prob\u00edh\u00e1", "safe_mode": "Bezpe\u010dn\u00fd m\u00f3d", "satellites": "Satelity", "satfinder": "Hled\u00e1n\u00ed dru\u017eic (SAT Finder)", "save": "Ulo\u017eit", "screenshot": "Sn\u00edmek obrazovky", "search": "Hledat", "search_csfd": "Prohledat CSFD", "search_imdb": "Prohledat IMDb", "search_kinopoisk": "Hledat v KinoPoisk", "search_tvguideuk": "Hledat v TV Guide UK", "seconds": "sekund", "send_message": "Odeslat zpr\u00e1vu", "sent_wait": "\u010cek\u00e1n\u00ed na odpov\u011b\u010f ...", "sendamessage": "Odeslat zpr\u00e1vu", "service": "Program", "settings": "Nastaven\u00ed", "Bouquet_Editor": "Editor p\u0159ehled\u016f", "shiftforlong": "(dlouh\u00fd stisk = shift + klik)", "show_full_openwebif": "Zobrazit pln\u00fd OpenWebif", "showfullremote": "\u00dapln\u00fd ovlada\u010d", "show_epg_for": "Zobrazit EPG pro", "shutdown": "Vypnout", "site_source": "Um\u00edst\u011bn\u00ed a zdroje", "snr": "SNR", "software": "Software", "standby": "Vypnout do pohotovosti", "standby_toggle": "Toggle Standby", "wake_up": "Probudit", "start_after_end": "\u010cas za\u010d\u00e1tku je v\u011bt\u0161\u00ed ne\u017e \u010das konce", "start_instant_record": "Spustit okam\u017eit\u00e9 nahr\u00e1v\u00e1n\u00ed", "stream": "Streamovat", "subnet_mask": "Maska", "subservices": "Podprogramy", "tags": "Tagy", "teletext": "Text/Teletext", "television": "Televize", "template_engine": "Template Engine", "text": "Text", "channel_is_protected": "tento program je chr\u00e1n\u011bn rodi\u010dovskou kontrolou", "time": "\u010cas", "timeout": "Trv\u00e1n\u00ed", "timer_added": "\u010casova\u010d p\u0159id\u00e1n", "timer_list": "P\u0159ehled \u010dasova\u010d\u016f", "timer_newname": "Nov\u00fd n\u00e1zev", "timer_preview": "P\u0159ehled Autotimer\u016f", "timer": "\u010casova\u010d", "timers": "\u010casova\u010de", "title": "N\u00e1zev", "main_memory": "Celkov\u00e1 pam\u011b\u0165", "transcoded": "transk\u00f3dov\u00e1no", "transcode": "Transk\u00f3dov\u00e1n\u00ed", "tuner_ber": "Bit Error Rate (BER)", "tuner_number": "\u010cislo tuneru", "tuner_signal": "Sign\u00e1l tuneru", "tuner_signal_snr": "Signal Quality (SNR)", "tuner_signal_snr_db": "Signal Quality (SNR DB)", "tuner_signal_agc": "Signal Power (AGC)", "tuner_type": "Typ tuneru", "tuners": "Tunery", "tv": "TV", "tv_multi_epg": "TV Multi EPG", "type": "Typ", "gui_theme_mode": "Vzhled", "upcoming_events": "Nadch\u00e1zej\u00edc\u00ed ud\u00e1losti", "version": "Verze", "video": "Obraz", "video_height": "V\u00fd\u0161ka videa", "video_wide": "Widescreen", "video_width": "\u0160\u00ed\u0159ka videa", "vps": "VPS", "volume": "Hlasitost", "volumecontrol": "Hlasitost", "waiting": "\u010dek\u00e1n\u00ed", "warning": "Varov\u00e1n\u00ed", "yes_no": "Ano/Ne", "zap": "P\u0159epnout", "zapbeforestream": "P\u0159epnout p\u0159ed streamem", "zap_to": "P\u0159epnout na", "zapped_to": "P\u0159epnuto na", "translation_spanish": "P\u0159eklad do \u0161pan\u011bl\u0161tiny", "license_text": "V\u0161echny soubory tohoto software jsou open source software; m\u016f\u017eete je distribuovat a/nebo modifikovat podle podm\u00ednek GNU General Public License verze 3 jako published by the Free Software Foundation.", "Root": "root", "reload": "Znovu na\u010d\u00edst", "add": "P\u0159idat", "at_list": "P\u0159ehled AutoTimer\u016f", "at_at_edit": "Upravit AutoTimer", "at_enabled": "Povolen", "at_text_match": "Hledan\u00fd text", "at_encoding": "K\u00f3dov\u00e1n\u00ed EPG", "at_search_type": "Hledat typ", "at_partial_match": "n\u00e1zev \u010d\u00e1ste\u010dn\u011b odpov\u00edd\u00e1", "at_exact_match": "n\u00e1zev p\u0159esn\u011b odpov\u00edd\u00e1", "at_description_match": "hledat v popisu", "at_title_or_description_match": "n\u00e1zev nebo popis odpov\u00edd\u00e1", "at_full_match": "n\u00e1zev nebo popis odpov\u00edd\u00e1", "at_title_or_short_description_match": "n\u00e1zev nebo zkr\u00e1cen\u00fd popis odpov\u00edd\u00e1", "at_title_shortdesc_match": "n\u00e1zev nebo zkr\u00e1cen\u00fd popis odpov\u00edd\u00e1", "at_short_description_match": "zkr\u00e1cen\u00fd popis odpov\u00edd\u00e1", "at_shortdesc_match": "zkr\u00e1cen\u00fd popis odpov\u00edd\u00e1", "at_start_match": "n\u00e1zev za\u010d\u00edn\u00e1 na", "at_end_match": "n\u00e1zev kon\u010d\u00ed na", "at_favoritedesc_match": "v popisu jen v p\u0159ehledech", "at_regex_match": "regex match (experimental)", "at_search_strictness": "P\u0159esnost hled\u00e1n\u00ed", "at_case_sensitive": "rozli\u0161ovat velikost p\u00edsmen", "at_case_insensitive": "nerozli\u0161ovat velikost p\u00edsmen", "at_timer_type": "Typ \u010dasova\u010de", "at_record": "nahr\u00e1t", "at_zap": "p\u0159epnout", "at_override_alt": "P\u0159epsat nalezen\u00e9 alternativn\u00edm programem", "at_timespan": "Jen odpov\u00eddaj\u00edc\u00ed \u010dasov\u00e9mu \u00faseku", "at_timespan_begin": "Za\u010d\u00e1tek \u010dasov\u00e9ho \u00faseku", "at_timespan_end": "Konec \u010dasov\u00e9ho \u00faseku", "at_datespan": "Omezit ud\u00e1losti na ur\u010dit\u00e9 datum", "at_datespan_from": "Ne po", "at_datespan_to": "Ne p\u0159ed", "at_timer_offset": "Vlastn\u00ed posun", "at_timer_offset_before": "Posun p\u0159ed nahr\u00e1v\u00e1n\u00edm (v minut\u00e1ch)", "at_timer_offset_after": "Posun po nahr\u00e1v\u00e1n\u00ed (v minut\u00e1ch)", "at_max_duration": "Nastavit maxim\u00e1ln\u00ed d\u00e9lku trv\u00e1n\u00ed", "at_after_event_standard": "standardn\u00ed", "at_after_event_auto": "automaticky", "at_after_event_nothing": "nic ned\u011blat", "at_after_event_standby": "p\u0159ej\u00edt do pohotovostn\u00edho re\u017eimu", "at_after_event_deepstandby": "p\u0159ej\u00edt do hlubok\u00e9ho sp\u00e1nku", "at_event_timespan": "Prov\u00e9st \"po ud\u00e1losti\" v \u010dasov\u00e9m \u00faseku", "at_event_timespan_begin": "Za\u010d\u00e1tek \u010dasov\u00e9ho \u00faseku \"po ud\u00e1losti\"", "at_event_timespan_end": "Konec \u010dasov\u00e9ho \u00faseku \"po ud\u00e1losti\"", "at_max_counter": "Nahr\u00e1t maxim\u00e1ln\u011b x-kr\u00e1t", "at_left": "Zb\u00fdv\u00e1 nahr\u00e1vek", "at_never": "nikdy", "at_monthly": "m\u011bs\u00ed\u010dn\u011b", "at_weekly_sun": "t\u00fddn\u011b (ned\u011ble)", "at_weekly_mon": "t\u00fddn\u011b (pond\u011bl\u00ed)", "at_reset_count": "Vynulovat po\u010d\u00edtadlo", "at_avoid_dup": "Vy\u017eadovat unik\u00e1tn\u00ed popis", "at_avoid_dup_no": "Ne", "at_avoid_dup_same_service": "na stejn\u00e9m programu", "at_avoid_dup_any_service": "na libovoln\u00e9m programu", "at_avoid_dup_any_service_rec": "Libovoln\u00fd program/nahr\u00e1v\u00e1n\u00ed", "at_location": "Pou\u017e\u00edt vlastn\u00ed um\u00edst\u011bn\u00ed", "at_tags": "Tagy", "at_select_tags": "vyberte tagy", "at_channels": "Kan\u00e1ly", "at_select_channels": "vyberte kan\u00e1ly", "at_select_bouquets": "vybrat p\u0159ehledy", "at_add_tags": "P\u0159idat tagy do nahr\u00e1vek", "at_restrict_bouquets": "Omezit na p\u0159ehledy", "at_restrict_channels": "Omezit na programy", "at_filter": "Povolit filtrov\u00e1n\u00ed", "at_filter_include": "V\u010detn\u011b", "at_filter_exclude": "Krom\u011b", "at_filter_title": "v n\u00e1zvu", "at_filter_short_desc": "v kr\u00e1tk\u00e9m popisu", "at_filter_desc": "v popisu", "at_filter_day": "den v t\u00fddnu", "at_filter_single_day": "on day", "at_filter_weekend": "V\u00edkend", "at_filter_weekday": "Den t\u00fddne", "at_edit": "Upravit", "at_disable": "Zak\u00e1zat", "at_del": "Odstranit", "at_save": "Ulo\u017eit", "at_process": "Analyzovat", "at_simulate": "Simulace", "at_timers": "\u010casova\u010de", "at_settings": "Nastaven\u00ed", "at_delete_autotimer_question": "Opravdu chcete odstranit tento AutoTimer?", "at_label_series": "Syst\u00e9m OE", "at_new": "Nov\u00fd", "at_name_hint": "Zadejte n\u00e1zev pro tento AutoTimer", "at_text_hint": "Zadejte text pro hled\u00e1n\u00ed v EPG", "at_add_filters": "P\u0159idat filtry", "at_remove_filter": "Odstranit filtry", "at_preview": "N\u00e1hled", "at_state": "Stav", "at_any_day": "Libovoln\u00fd den", "at_any_time": "libovoln\u00fd \u010das", "at_no_matches": "Nenalezeny odpov\u00eddaj\u00edc\u00ed v\u00fdsledky v EPG", "at_in_minutes": "(v minut\u00e1ch)", "ats_auto_timer_settings": "Autotimer - nastaven\u00ed", "ats_autopoll": "Automatick\u00e1 kontrola", "ats_interval": "Interval (v minuta)", "ats_maxdaysinfuture": "Max dn\u016f", "ats_try_guessing": "Zkusit odhadnout", "ats_fastscan": "Fastscan", "ats_show_in_extensionsmenu": "Zobrazovat v Extended menu", "ats_disabled_on_conflict": "Zak\u00e1z\u00e1n p\u0159i konfliktu", "ats_addsimilar_on_conflict": "P\u0159idat podobn\u00e9 p\u0159i konfliktu", "ats_notifconflict": "Ohl\u00e1sit p\u0159i konfliktu", "ats_notifsimilar": "Ozn\u00e1mit p\u0159i podobnosti", "ats_add_autotimer_to_tags": "P\u0159idat Autotimer do tag\u016f", "ats_add_name_to_tags": "P\u0159idat n\u00e1zev do tag\u016f", "ats_refresh": "Aktualizovat", "ats_refresh_none": "\u017d\u00e1dn\u00fd", "ats_refresh_auto": "Auto", "ats_refresh_all": "V\u0161e", "ats_editor": "Editor", "ats_editor_plain": "Prost\u00fd", "ats_editor_wizard": "Pr\u016fvodce", "er_enabled": "Povolen", "er_enable_messages": "Povolit zpr\u00e1vy", "er_begin": "Za\u010d\u00e1tek", "er_end": "Konec", "er_delay_standby": "Zpo\u017ed\u011bn\u00ed", "er_interval_min": "Interval (min.)", "er_interval_sec": "Interval (sec.)", "er_afterevent": "Shutdown after refresh.", "er_force": "Vynutit aktualizaci", "er_wakeup": "Probudit", "er_inherit_autotimer": "P\u0159evz\u00edt z Autotimeru", "er_parse_autotimer": "Analyzovat Autotimer", "er_always": "V\u017edy", "er_never": "nikdy", "er_bg_only": "Pouze na pozad\u00ed", "er_ask_yes": "Po\u017e\u00e1dat, defaultn\u011b Ano", "er_ask_no": "Po\u017e\u00e1dat, defaultn\u011b Ne", "er_adapter": "Metoda", "er_main": "Hlavn\u00ed obraz", "er_pip": "Obraz v obraze (PIP)", "er_pip_hidden": "Obraz v obraze (skryt\u00e9)", "er_fake_recording": "Fale\u0161n\u00e9 nahr\u00e1v\u00e1n\u00ed", "er_save": "Ulo\u017eit", "er_refresh": "Zaktualizovat", "bqe_add_provider_as_bouquet": "P\u0159idat poskytovatele jako nov\u00fd p\u0159ehled", "bqe_add_channel": "P\u0159idat kan\u00e1l(y) do p\u0159ehledu", "bqe_add_alternative": "P\u0159idat kan\u00e1l(y) jako alternativu", "bqe_search": "Hledat", "bqe_search_enhanced": "Hledat dle n\u00e1zvu, sd / hd / uhd nebo poskytovatele", "bqe_add_bq": "P\u0159idat p\u0159ehled", "bqe_rename_bq": "P\u0159ejmenovat p\u0159ehled", "bqe_delete_bq": "Odstranit p\u0159ehled", "bqe_add_url": "P\u0159idat IPTV/URL", "bqe_add_marker": "P\u0159idat zna\u010dku", "bqe_add_spacer": "Add Spacer", "bqe_rename": "P\u0159ejmenovat", "bqe_del_channel_question": "Chcete skute\u010dn\u011b odstranit vybranou polo\u017eku/polo\u017eky?", "bqe_del_bouquet_question": "Skute\u010dn\u011b chcete odstranit zvolen\u00fd p\u0159ehled?", "bqe_name_url": "IPTV / URL n\u00e1zev", "bqe_name_bouquet": "N\u00e1zev p\u0159ehledu", "bqe_name_marker": "N\u00e1zev zna\u010dky", "bqe_rename_bouquet": "Zadejte nov\u00fd n\u00e1zev pro p\u0159ehled", "bqe_rename_marker": "Zadejte nov\u00fd n\u00e1zev pro zna\u010dku", "bqe_filename": "Zadejte n\u00e1zev souboru", "bqe_restore_question": "Opravdu chcete obnovit ze souboru?", "bqe_loading": "Na\u010d\u00edt\u00e1n\u00ed...", "via": "via", "zap_record": "Nahr\u00e1t a p\u0159epnout", "pmt_pid": "PMT Pid", "a_pid": "Audio PID (APID)", "v_pid": "Video PID (VPID)", "txt_pid": "Teletext PID", "pcr_pid": "PCR Pid", "ts_id": "TSID", "on_id": "ONID", "s_id": "ID slu\u017eby (SID)", "s_ref": "SRef", "s_orb": "Orbit\u00e1ln\u00ed pozice", "tstr_error_load_page": "error! Loading Page", "tstr_timer_added": "\u010casova\u010d p\u0159id\u00e1n", "tstr_event_not_found": "Ud\u00e1lost nenalezena", "tstr_show_picon_in_channel_list": "Zobrazovat pikony v p\u0159ehledu kan\u00e1l\u016f", "tstr_moviedb": "Datab\u00e1ze film\u016f v EPG", "tstr_ow_browser_settings": "Nastaven\u00ed prohl\u00ed\u017ee\u010de OpenWebif", "tstr_ow_settings": "Nastaven\u00ed OpenWebif", "tstr_theme": "Vzhled", "tstr_spinner": "Spinner", "tstr_smallremote": "Small remote layout", "display_duration_s": "Doba zobrazen\u00ed (s)", "display_mode": "Zobrazen\u00ed", "tv_guide": "TV pr\u016fvodce", "timeline": "\u010casov\u00e1 osa", "webtv": "Web TV", "cw": "T\u00fdden", "linkspeed": "Rychlost p\u0159ipojen\u00ed", "networkshares": "Sd\u00edlen\u00ed v s\u00edti", "using": "using", "prime_times": "Primetimes", "titscreenshot": "Povolit/zak\u00e1zat sn\u00edmek obrazovky p\u0159i stisku tla\u010d\u00edtka nebo", "bookmarks": "Z\u00e1lo\u017eky", "bookmark": "Z\u00e1lo\u017eka", "new_bookmark": "Nov\u00e1 z\u00e1lo\u017eka:", "delete_bookmark": "Smazat z\u00e1lo\u017eku", "bookmark_path": "Zadejte cestu", "packages": "Bal\u00ed\u010dky", "newdesign": "Pou\u017e\u00edt nov\u00fd vzhled", "oops": "Oops...", "prompt_save_changes": "Chcete ulo\u017eit zm\u011bny?", "rename": "P\u0159ejmenovat", "no_cancel": "Ne, zru\u0161it", "yes_delete": "Ano", "cancelled": "Zru\u0161eno", "deleted": "Smaz\u00e1no", "need_input": "Hodnota po\u017eadov\u00e1na", "common_settings": "Spole\u010dn\u00e1 nastaven\u00ed", "min_movie_list": "Minimal movie list", "min_timer_list": "Minimal timer list", "min_epg_list": "Minimal EPG list", "now_next_columns": "Sloupce Nyn\u00ed/Dal\u0161\u00ed", "remove_package": "Odstranit bal\u00ed\u010dek", "update_package": "Aktualizovat bal\u00ed\u010dek", "install_package": "Instalovat bal\u00ed\u010dek", "update": "Aktualizace", "installed": "Instalov\u00e1no:", "more": "V\u00edce", "update_feed": "Update from feed", "upgrade_packages": "Aktualizovat v\u0161echny bal\u00ed\u010dky", "yes": "Ano", "no": "Ne", "inc_shortdesc": "V\u010detn\u011b kr\u00e1tk\u00e9ho popisu", "inc_extdesc": "V\u010detn\u011b roz\u0161\u00ed\u0159en\u00e9ho popisu", "start_typing": "Start typing...", "select_ipk_upload": "Vyberte IPK soubor pro nahr\u00e1t\u00ed", "uploaded_files": "Uploaded Files", "upload_package": "Upload package", "upload_error": "Upload File Error", "showfullremoteshort": "\u00dapln\u00fd ovlada\u010d", "showdetails": "Zobrazit detaily", "show_details_in_channel_list": "Zobrazovat typ programu v p\u0159ehledu kan\u00e1l\u016f", "show_iptv_channels_in_selection": "IPTV kan\u00e1ly ve v\u00fdb\u011bru (nap\u0159. Autotimer)", "use_channel_name_for_screenshots": "N\u00e1zev kan\u00e1lu pro sn\u00edmek obrazovky", "show_picons": "Zobrazovat pikony", "show_picon_background": "Pozad\u00ed pikon", "export": "Export", "import": "Import", "sort": "T\u0159idit", "name_asc": "N\u00e1zev (a-z)", "name_desc": "N\u00e1zev (z-a)", "date_asc": "Datum (nejstar\u0161\u00ed)", "date_desc": "Datum (nejnov\u011bj\u0161\u00ed)", "subdirectories": "Podadres\u00e1\u0159e", "form_select": "Vybrat...", "form_reset": "Reset", "HH_MM": "HH:MM", "YYYY_MM_DD": "RRRR-MM-DD", "playlistformat": "Form\u00e1t playlistu", "pipifposible": "Pou\u017e\u00edt jako PiP, jestli\u017ee je to mo\u017en\u00e9", "allow_duplicate": "Umo\u017enit duplicity", "streamclients": "Streamuj\u00edc\u00ed klienti", "config": "Konfigurace", "skins": "Skins", "use_classic_design": "Pou\u017e\u00edt klasick\u00fd vzhled", "use_modern_design": "Pou\u017e\u00edt nov\u00fd vzhled", "showallpackages": "Zobrazit v\u0161echny bal\u00ed\u010dky", "recordingtype": "Typ nahr\u00e1vky", "normal": "norm\u00e1ln\u00ed", "descrambledecm": "dek\u00f3dovat a nahr\u00e1vat ecm", "scrambledecm": "nedek\u00f3dovat, nahr\u00e1vat ecm", "REC": "REC", "enter_text": "Enter text", "edit_recording": "Edit Recording", "currently_recording": "Currently recording", "serving_stream": "Serving stream", "mute_unmute": "Mute/Unmute", "send": "Send", "receiver": "P\u0159ij\u00edma\u010d", "build": "Build", "information": "Informace", "timer_conflict": "Timer Conflict", "no_network_connection": "No network connection", "any": "Any", "drag_hint": "Hold to drag", "hardware": "Hardware", "internal_flash_memory": "Internal flash memory", "storage": "Storage", "device": "Device", "free_space": "Free space", "mount_point": "Mount point", "folders": "Folders", "margin": "Margin", "after": "After", "before": "Before", "select_directory": "Select Directory", "showepghistory": "Show EPG History"})</script>
+	<script type="text/javascript">
+		var h = window.innerHeight - 210;
+		var hh = h-70;
+		var css = document.createElement("style");
+		css.type = "text/css";
+		css.innerHTML = '#tvcontentmain { height: '+h.toString()+'px; } #tvcontent,#movies,#timers { height: '+hh.toString()+'px; }';
+		document.body.appendChild(css);
+
+		$(document).ready(function() {
+			directlink();
+			$('a.lmc').on("click", function() {
+				var target_url = $(this).prop("href");
+				if($(this).hasClass("spin")) {
+					load_maincontent_spin(target_url);
+				}
+				else if($(this).hasClass("pop")) {
+					_epg_pop(target_url);
+				}
+				else {
+					load_maincontent(target_url);
+				}
+				return false;
+			});
+		});
+		theme = 'original';
+		SetLSValue('TimerListOffset',0);
+
+		$(document).ready(function() {
+			$("td",".remotesmall").click(function(e) {
+				var d = $(this).data("code");
+				if (d != undefined) {
+	        		pressMenuRemote(d, event.shiftKey);
+				}
+    		});
+		});
+		function InputText()
+		{
+			var txt = prompt("Enter text", "");
+			if (txt != null) {
+				var url = "/api/remotecontrol?text=" + txt;
+				webapi_execute(url);
+				callScreenShot();
+			}
+		}
+	</script>
+</body>
+</html>

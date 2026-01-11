@@ -1,0 +1,638 @@
+#EXTM3U 
+#EXTVLCOPT:http-reconnect=true
+#EXTINF:-1 tvg-chno="15420" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3C3C:C90:3:EB0000:0:0:0:" tvg-name="Jednotka HD",Jednotka HD
+#EXTVLCOPT:program=15420
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C3C:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15421" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3C3D:C90:3:EB0000:0:0:0:" tvg-name="Dvojka HD",Dvojka HD
+#EXTVLCOPT:program=15421
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C3D:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14129" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3731_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3731:C8E:3:EB0000:0:0:0:" tvg-name="Markiza HD",Markiza HD
+#EXTVLCOPT:program=14129
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3731:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13208" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3398:C9D:3:EB0000:0:0:0:" tvg-name="TV JOJ HD",TV JOJ HD
+#EXTVLCOPT:program=13208
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3398:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14134" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3736_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3736:C8E:3:EB0000:0:0:0:" tvg-name="CANAL+ Action",CANAL+ Action
+#EXTVLCOPT:program=14134
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3736:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14132" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3734_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3734:C8E:3:EB0000:0:0:0:" tvg-name="CANAL+ Sport",CANAL+ Sport
+#EXTVLCOPT:program=14132
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3734:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15416" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C38_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C38:C90:3:EB0000:0:0:0:" tvg-name="CANAL+ Sport 2",CANAL+ Sport 2
+#EXTVLCOPT:program=15416
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C38:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14057" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E9_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E9:C8C:3:EB0000:0:0:0:" tvg-name="FilmBox HD",FilmBox HD
+#EXTVLCOPT:program=14057
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E9:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15609" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF9_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF9:C95:3:EB0000:0:0:0:" tvg-name="FilmBox Stars",FilmBox Stars
+#EXTVLCOPT:program=15609
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF9:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15422" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3C3E:C90:3:EB0000:0:0:0:" tvg-name="RTVS 24 HD",RTVS 24 HD
+#EXTVLCOPT:program=15422
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C3E:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15423" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3C3F:C90:3:EB0000:0:0:0:" tvg-name="RTVS SPORT HD",RTVS SPORT HD
+#EXTVLCOPT:program=15423
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C3F:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14130" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3732_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3732:C8E:3:EB0000:0:0:0:" tvg-name="DOMA HD",DOMA HD
+#EXTVLCOPT:program=14130
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3732:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13207" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3397:C9D:3:EB0000:0:0:0:" tvg-name="DAJTO HD",DAJTO HD
+#EXTVLCOPT:program=13207
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3397:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13215" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:339F:C9D:3:EB0000:0:0:0:" tvg-name="Markiza Krimi HD",Markiza Krimi HD
+#EXTVLCOPT:program=13215
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:339F:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15403" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2B_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2B:C90:3:EB0000:0:0:0:" tvg-name="Markiza Klasik",Markiza Klasik
+#EXTVLCOPT:program=15403
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2B:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13209" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3399:C9D:3:EB0000:0:0:0:" tvg-name="JOJ PLUS HD",JOJ PLUS HD
+#EXTVLCOPT:program=13209
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3399:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13135" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_334F_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:334F:C93:3:EB0000:0:0:0:" tvg-name="WAU HD",WAU HD
+#EXTVLCOPT:program=13135
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:334F:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13216" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:33A0:C9D:3:EB0000:0:0:0:" tvg-name="JOJ 24 HD",JOJ 24 HD
+#EXTVLCOPT:program=13216
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:33A0:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4904" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1328_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:1:1328:CA2:3:EB0000:0:0:0:" tvg-name="TA3 HD",TA3 HD
+#EXTVLCOPT:program=4904
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1328:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8014" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F4E_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F4E:CA1:3:EB0000:0:0:0:" tvg-name="TV Lux HD",TV Lux HD
+#EXTVLCOPT:program=8014
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F4E:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14070" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:36F6:C8C:3:EB0000:0:0:0:" tvg-name="Spektrum Home",Spektrum Home
+#EXTVLCOPT:program=14070
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F6:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15406" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2E_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2E:C90:3:EB0000:0:0:0:" tvg-name="Filmbox Extra HD",Filmbox Extra HD
+#EXTVLCOPT:program=15406
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2E:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15605" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF5_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF5:C95:3:EB0000:0:0:0:" tvg-name="Filmbox Premium HD",Filmbox Premium HD
+#EXTVLCOPT:program=15605
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF5:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15412" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C34_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C34:C90:3:EB0000:0:0:0:" tvg-name="FilmBox Family",FilmBox Family
+#EXTVLCOPT:program=15412
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C34:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13145" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3359_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:3359:C93:3:EB0000:0:0:0:" tvg-name="JOJ Cinema HD",JOJ Cinema HD
+#EXTVLCOPT:program=13145
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3359:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14058" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36EA_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36EA:C8C:3:EB0000:0:0:0:" tvg-name="CS Film",CS Film
+#EXTVLCOPT:program=14058
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36EA:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14080" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3700_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:3700:C8C:3:EB0000:0:0:0:" tvg-name="Epic Drama HD",Epic Drama HD
+#EXTVLCOPT:program=14080
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3700:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14072" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:36F8:C8C:3:EB0000:0:0:0:" tvg-name="Film+ SK",Film+ SK
+#EXTVLCOPT:program=14072
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F8:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15607" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF7_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF7:C95:3:EB0000:0:0:0:" tvg-name="Film Europe+  HD",Film Europe+  HD
+#EXTVLCOPT:program=15607
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF7:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="789" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_315_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:315:C94:3:EB0000:0:0:0:" tvg-name="AXN CZ",AXN CZ
+#EXTVLCOPT:program=789
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:315:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15616" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3D00:C95:3:EB0000:0:0:0:" tvg-name="AXN Black",AXN Black
+#EXTVLCOPT:program=15616
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3D00:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15617" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3D01:C95:3:EB0000:0:0:0:" tvg-name="AXN White",AXN White
+#EXTVLCOPT:program=15617
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3D01:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14123" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:372B:C8E:3:EB0000:0:0:0:" tvg-name="AMC SK",AMC SK
+#EXTVLCOPT:program=14123
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:372B:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15405" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2D_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2D:C90:3:EB0000:0:0:0:" tvg-name="Film Europe HD",Film Europe HD
+#EXTVLCOPT:program=15405
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2D:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14059" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36EB_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36EB:C8C:3:EB0000:0:0:0:" tvg-name="CS Horror",CS Horror
+#EXTVLCOPT:program=14059
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36EB:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15602" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF2_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF2:C95:3:EB0000:0:0:0:" tvg-name="Film+ HD",Film+ HD
+#EXTVLCOPT:program=15602
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF2:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15608" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF8_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF8:C95:3:EB0000:0:0:0:" tvg-name="STORY4 HD",STORY4 HD
+#EXTVLCOPT:program=15608
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF8:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8001" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F41_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F41:CA1:3:EB0000:0:0:0:" tvg-name="CT 1 PHA HD",CT 1 PHA HD
+#EXTVLCOPT:program=8001
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F41:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8002" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F42_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F42:CA1:3:EB0000:0:0:0:" tvg-name="CT 2 HD",CT 2 HD
+#EXTVLCOPT:program=8002
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F42:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13211" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:339B:C9D:3:EB0000:0:0:0:" tvg-name="Nova International",Nova International
+#EXTVLCOPT:program=13211
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:339B:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8009" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F49_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F49:CA1:3:EB0000:0:0:0:" tvg-name="Prima SK",Prima SK
+#EXTVLCOPT:program=8009
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F49:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14079" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36FF_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36FF:C8C:3:EB0000:0:0:0:" tvg-name="CNN Prima News HD",CNN Prima News HD
+#EXTVLCOPT:program=14079
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36FF:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8003" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F43_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F43:CA1:3:EB0000:0:0:0:" tvg-name="CT 24 HD",CT 24 HD
+#EXTVLCOPT:program=8003
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F43:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8005" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F45_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F45:CA1:3:EB0000:0:0:0:" tvg-name="CT :D/art HD",CT :D/art HD
+#EXTVLCOPT:program=8005
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F45:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14053" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E5_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E5:C8C:3:EB0000:0:0:0:" tvg-name="Prima MAX HD",Prima MAX HD
+#EXTVLCOPT:program=14053
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E5:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14117" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3725:C8E:3:EB0000:0:0:0:" tvg-name="Prima COOL HD SK",Prima COOL HD SK
+#EXTVLCOPT:program=14117
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3725:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14056" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E8_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E8:C8C:3:EB0000:0:0:0:" tvg-name="Prima Zoom HD",Prima Zoom HD
+#EXTVLCOPT:program=14056
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E8:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14060" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36EC_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36EC:C8C:3:EB0000:0:0:0:" tvg-name="Prima KRIMI HD",Prima KRIMI HD
+#EXTVLCOPT:program=14060
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36EC:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14118" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3726:C8E:3:EB0000:0:0:0:" tvg-name="Prima Love HD SK",Prima Love HD SK
+#EXTVLCOPT:program=14118
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3726:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14062" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36EE_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36EE:C8C:3:EB0000:0:0:0:" tvg-name="Prima Show",Prima Show
+#EXTVLCOPT:program=14062
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36EE:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14061" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36ED_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36ED:C8C:3:EB0000:0:0:0:" tvg-name="Prima STAR",Prima STAR
+#EXTVLCOPT:program=14061
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36ED:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="796" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_31C_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:31C:C94:3:EB0000:0:0:0:" tvg-name="TV Barrandov",TV Barrandov
+#EXTVLCOPT:program=796
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:31C:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="797" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_31D_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:31D:C94:3:EB0000:0:0:0:" tvg-name="Kino Barrandov",Kino Barrandov
+#EXTVLCOPT:program=797
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:31D:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="798" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_31E_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:31E:C94:3:EB0000:0:0:0:" tvg-name="Barrandov Krimi",Barrandov Krimi
+#EXTVLCOPT:program=798
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:31E:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="775" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_307_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:307:C94:3:EB0000:0:0:0:" tvg-name="HBO HD",HBO HD
+#EXTVLCOPT:program=775
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:307:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15603" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF3_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF3:C95:3:EB0000:0:0:0:" tvg-name="HBO2 HD",HBO2 HD
+#EXTVLCOPT:program=15603
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF3:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15604" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF4_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF4:C95:3:EB0000:0:0:0:" tvg-name="HBO3 HD",HBO3 HD
+#EXTVLCOPT:program=15604
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF4:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15404" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2C_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2C:C90:3:EB0000:0:0:0:" tvg-name="Cinemax HD",Cinemax HD
+#EXTVLCOPT:program=15404
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2C:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15606" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF6_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF6:C95:3:EB0000:0:0:0:" tvg-name="Cinemax2 HD",Cinemax2 HD
+#EXTVLCOPT:program=15606
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF6:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="771" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_303_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:303:C94:3:EB0000:0:0:0:" tvg-name="Nat Geo HD CZ",Nat Geo HD CZ
+#EXTVLCOPT:program=771
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:303:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15601" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF1_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF1:C95:3:EB0000:0:0:0:" tvg-name="Viasat Nature HD",Viasat Nature HD
+#EXTVLCOPT:program=15601
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF1:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15600" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CF0_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CF0:C95:3:EB0000:0:0:0:" tvg-name="Viasat History HD",Viasat History HD
+#EXTVLCOPT:program=15600
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CF0:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15407" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2F_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2F:C90:3:EB0000:0:0:0:" tvg-name="Viasat Explore",Viasat Explore
+#EXTVLCOPT:program=15407
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2F:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6062" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_17AE_C82_3_EB0000_0_0_0.png" tvg-id="1:0:1:17AE:C82:3:EB0000:0:0:0:" tvg-name="Travelxp",Travelxp
+#EXTVLCOPT:program=6062
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17AE:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8015" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1F4F:CA1:3:EB0000:0:0:0:" tvg-name="JOJ Svet HD",JOJ Svet HD
+#EXTVLCOPT:program=8015
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F4F:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13133" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_334D_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:334D:C93:3:EB0000:0:0:0:" tvg-name="CS Mystery",CS Mystery
+#EXTVLCOPT:program=13133
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:334D:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13146" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_335A_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:335A:C93:3:EB0000:0:0:0:" tvg-name="CS History",CS History
+#EXTVLCOPT:program=13146
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:335A:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15614" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3CFE:C95:3:EB0000:0:0:0:" tvg-name="TV Spark",TV Spark
+#EXTVLCOPT:program=15614
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFE:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="788" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_314_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:314:C94:3:EB0000:0:0:0:" tvg-name="Fishing and Hunting",Fishing and Hunting
+#EXTVLCOPT:program=788
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:314:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="773" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_305_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:305:C94:3:EB0000:0:0:0:" tvg-name="National Geographic Wild HD",National Geographic Wild HD
+#EXTVLCOPT:program=773
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:305:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="784" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_310_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:310:C94:3:EB0000:0:0:0:" tvg-name="Spektrum HD",Spektrum HD
+#EXTVLCOPT:program=784
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:310:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15615" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3CFF:C95:3:EB0000:0:0:0:" tvg-name="History HD",History HD
+#EXTVLCOPT:program=15615
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFF:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="783" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_30F_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:30F:C94:3:EB0000:0:0:0:" tvg-name="Love Nature HD",Love Nature HD
+#EXTVLCOPT:program=783
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:30F:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14051" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E3_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E3:C8C:3:EB0000:0:0:0:" tvg-name="DocuBox",DocuBox
+#EXTVLCOPT:program=14051
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E3:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7165" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1BFD_C88_3_EB0000_0_0_0.png" tvg-id="1:0:1:1BFD:C88:3:EB0000:0:0:0:" tvg-name="Nautical HD",Nautical HD
+#EXTVLCOPT:program=7165
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1BFD:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14078" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36FE_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36FE:C8C:3:EB0000:0:0:0:" tvg-name="TV Paprika",TV Paprika
+#EXTVLCOPT:program=14078
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36FE:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15613" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CFD_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CFD:C95:3:EB0000:0:0:0:" tvg-name="tv8",tv8
+#EXTVLCOPT:program=15613
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFD:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13214" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:339E:C9D:3:EB0000:0:0:0:" tvg-name="JOJ Sport HD",JOJ Sport HD
+#EXTVLCOPT:program=13214
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:339E:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13203" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3393:C9D:3:EB0000:0:0:0:" tvg-name="Nova Sport 1 HD",Nova Sport 1 HD
+#EXTVLCOPT:program=13203
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3393:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14110" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_371E_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:371E:C8E:3:EB0000:0:0:0:" tvg-name="Nova Sport 2 HD",Nova Sport 2 HD
+#EXTVLCOPT:program=14110
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:371E:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14054" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E6_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E6:C8C:3:EB0000:0:0:0:" tvg-name="Nova Sport 3 HD",Nova Sport 3 HD
+#EXTVLCOPT:program=14054
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E6:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14055" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E7_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E7:C8C:3:EB0000:0:0:0:" tvg-name="Nova Sport 4 HD",Nova Sport 4 HD
+#EXTVLCOPT:program=14055
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E7:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21270" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:5316:C96:3:EB0000:0:0:0:" tvg-name="Nova Sport 5 HD",Nova Sport 5 HD
+#EXTVLCOPT:program=21270
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:5316:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="786" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_312_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:312:C94:3:EB0000:0:0:0:" tvg-name="Nova Sport 6 HD",Nova Sport 6 HD
+#EXTVLCOPT:program=786
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:312:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13131" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_334B_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:334B:C93:3:EB0000:0:0:0:" tvg-name="Sport 1 HD",Sport 1 HD
+#EXTVLCOPT:program=13131
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:334B:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="792" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_318_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:318:C94:3:EB0000:0:0:0:" tvg-name="Sport 2 HD",Sport 2 HD
+#EXTVLCOPT:program=792
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:318:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="785" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:311:C94:3:EB0000:0:0:0:" tvg-name="Golf Channel",Golf Channel
+#EXTVLCOPT:program=785
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:311:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15401" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C29_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C29:C90:3:EB0000:0:0:0:" tvg-name="Arena Sport 1 HD",Arena Sport 1 HD
+#EXTVLCOPT:program=15401
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C29:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14116" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3724_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3724:C8E:3:EB0000:0:0:0:" tvg-name="Arena Sport 2 HD",Arena Sport 2 HD
+#EXTVLCOPT:program=14116
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3724:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6103" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_17D7_C91_3_EB0000_0_0_0.png" tvg-id="1:0:1:17D7:C91:3:EB0000:0:0:0:" tvg-name="AutoMotorSport HD",AutoMotorSport HD
+#EXTVLCOPT:program=6103
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17D7:C91:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6122" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_17EA_C82_3_EB0000_0_0_0.png" tvg-id="1:0:1:17EA:C82:3:EB0000:0:0:0:" tvg-name="FightBox",FightBox
+#EXTVLCOPT:program=6122
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17EA:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13210" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:339A:C9D:3:EB0000:0:0:0:" tvg-name="Jojko",Jojko
+#EXTVLCOPT:program=13210
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:339A:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15415" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C37_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C37:C90:3:EB0000:0:0:0:" tvg-name="JimJam CZ",JimJam CZ
+#EXTVLCOPT:program=15415
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C37:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15611" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CFB_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CFB:C95:3:EB0000:0:0:0:" tvg-name="Minimax",Minimax
+#EXTVLCOPT:program=15611
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFB:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14077" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36FD_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36FD:C8C:3:EB0000:0:0:0:" tvg-name="ducktv",ducktv
+#EXTVLCOPT:program=14077
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36FD:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13148" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_335C_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:335C:C93:3:EB0000:0:0:0:" tvg-name="Nickelodeon CZ",Nickelodeon CZ
+#EXTVLCOPT:program=13148
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:335C:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14064" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36F0_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36F0:C8C:3:EB0000:0:0:0:" tvg-name="Nick Jr Czech",Nick Jr Czech
+#EXTVLCOPT:program=14064
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F0:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14071" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:36F7:C8C:3:EB0000:0:0:0:" tvg-name="Nicktoons",Nicktoons
+#EXTVLCOPT:program=14071
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F7:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15402" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C2A_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C2A:C90:3:EB0000:0:0:0:" tvg-name="LALA TV",LALA TV
+#EXTVLCOPT:program=15402
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C2A:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14076" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36FC_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36FC:C8C:3:EB0000:0:0:0:" tvg-name="Disney CZ",Disney CZ
+#EXTVLCOPT:program=14076
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36FC:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14069" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36F5_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36F5:C8C:3:EB0000:0:0:0:" tvg-name="Cartoon Network",Cartoon Network
+#EXTVLCOPT:program=14069
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F5:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="779" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:30B:C94:3:EB0000:0:0:0:" tvg-name="Cartoonito",Cartoonito
+#EXTVLCOPT:program=779
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:30B:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15418" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3C3A_C90_3_EB0000_0_0_0.png" tvg-id="1:0:1:3C3A:C90:3:EB0000:0:0:0:" tvg-name="Retro Music TV",Retro Music TV
+#EXTVLCOPT:program=15418
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3C3A:C90:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13134" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_334E_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:334E:C93:3:EB0000:0:0:0:" tvg-name="Slager Original",Slager Original
+#EXTVLCOPT:program=13134
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:334E:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13213" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:339D:C9D:3:EB0000:0:0:0:" tvg-name="Slager Muzika",Slager Muzika
+#EXTVLCOPT:program=13213
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:339D:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="778" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:30A:C94:3:EB0000:0:0:0:" tvg-name="Premium HD",Premium HD
+#EXTVLCOPT:program=778
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:30A:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14065" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36F1_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36F1:C8C:3:EB0000:0:0:0:" tvg-name="Senzi",Senzi
+#EXTVLCOPT:program=14065
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36F1:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="777" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_309_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:309:C94:3:EB0000:0:0:0:" tvg-name="OCKO STAR",OCKO STAR
+#EXTVLCOPT:program=777
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:309:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="780" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_30C_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:30C:C94:3:EB0000:0:0:0:" tvg-name="MTV Europe CZ",MTV Europe CZ
+#EXTVLCOPT:program=780
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:30C:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6166" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1816_C82_3_EB0000_0_0_0.png" tvg-id="1:0:1:1816:C82:3:EB0000:0:0:0:" tvg-name="Mezzo",Mezzo
+#EXTVLCOPT:program=6166
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1816:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="782" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_30E_C94_3_EB0000_0_0_0.png" tvg-id="1:0:1:30E:C94:3:EB0000:0:0:0:" tvg-name="Stingray CMusic",Stingray CMusic
+#EXTVLCOPT:program=782
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:30E:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6117" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E5:C82:3:EB0000:0:0:0:" tvg-name="M1",M1
+#EXTVLCOPT:program=6117
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E5:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6118" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E6:C82:3:EB0000:0:0:0:" tvg-name="M2 / Petofi",M2 / Petofi
+#EXTVLCOPT:program=6118
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E6:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6119" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E7:C82:3:EB0000:0:0:0:" tvg-name="M4",M4
+#EXTVLCOPT:program=6119
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E7:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8017" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1F51:CA1:3:EB0000:0:0:0:" tvg-name="M5",M5
+#EXTVLCOPT:program=8017
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F51:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7190" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C16:C88:3:EB0000:0:0:0:" tvg-name="Duna",Duna
+#EXTVLCOPT:program=7190
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C16:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7184" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C10:C88:3:EB0000:0:0:0:" tvg-name="Duna World / M4 Sport+",Duna World / M4 Sport+
+#EXTVLCOPT:program=7184
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C10:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6115" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E3:C82:3:EB0000:0:0:0:" tvg-name="Hir TV",Hir TV
+#EXTVLCOPT:program=6115
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E3:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21268" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:5314:C96:3:EB0000:0:0:0:" tvg-name="RTL GOLD",RTL GOLD
+#EXTVLCOPT:program=21268
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:5314:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6120" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E8:C82:3:EB0000:0:0:0:" tvg-name="RTL",RTL
+#EXTVLCOPT:program=6120
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E8:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21152" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:52A0:C99:3:EB0000:0:0:0:" tvg-name="RTL KETTO",RTL KETTO
+#EXTVLCOPT:program=21152
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:52A0:C99:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21151" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:529F:C99:3:EB0000:0:0:0:" tvg-name="RTL HAROM",RTL HAROM
+#EXTVLCOPT:program=21151
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:529F:C99:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6121" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E9:C82:3:EB0000:0:0:0:" tvg-name="TV2",TV2
+#EXTVLCOPT:program=6121
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E9:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14126" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:372E:C8E:3:EB0000:0:0:0:" tvg-name="SuperTV2",SuperTV2
+#EXTVLCOPT:program=14126
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:372E:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8016" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1F50:CA1:3:EB0000:0:0:0:" tvg-name="STORY4 HU",STORY4 HU
+#EXTVLCOPT:program=8016
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F50:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7191" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C17:C88:3:EB0000:0:0:0:" tvg-name="Cool",Cool
+#EXTVLCOPT:program=7191
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C17:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21153" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:52A1:C99:3:EB0000:0:0:0:" tvg-name="Sorozat+",Sorozat+
+#EXTVLCOPT:program=21153
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:52A1:C99:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15610" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CFA_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CFA:C95:3:EB0000:0:0:0:" tvg-name="Comedy Central Hungary",Comedy Central Hungary
+#EXTVLCOPT:program=15610
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFA:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7189" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C15:C88:3:EB0000:0:0:0:" tvg-name="Film+ Hungary",Film+ Hungary
+#EXTVLCOPT:program=7189
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C15:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14111" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:371F:C8E:3:EB0000:0:0:0:" tvg-name="Galaxy4",Galaxy4
+#EXTVLCOPT:program=14111
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:371F:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="793" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:319:C94:3:EB0000:0:0:0:" tvg-name="TV2Klub",TV2Klub
+#EXTVLCOPT:program=793
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:319:C94:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21269" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:5315:C96:3:EB0000:0:0:0:" tvg-name="TV2 Sef",TV2 Sef
+#EXTVLCOPT:program=21269
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:5315:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21237" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:52F5:C96:3:EB0000:0:0:0:" tvg-name="Slager TV",Slager TV
+#EXTVLCOPT:program=21237
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:52F5:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21235" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:52F3:C96:3:EB0000:0:0:0:" tvg-name="Muzsika TV",Muzsika TV
+#EXTVLCOPT:program=21235
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:52F3:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="15612" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3CFC_C95_3_EB0000_0_0_0.png" tvg-id="1:0:1:3CFC:C95:3:EB0000:0:0:0:" tvg-name="(18+) Leo TV (22-06)",(18+) Leo TV (22-06)
+#EXTVLCOPT:program=15612
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3CFC:C95:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6114" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:17E2:C82:3:EB0000:0:0:0:" tvg-name="(18+) VIXEN HD",(18+) VIXEN HD
+#EXTVLCOPT:program=6114
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:17E2:C82:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7180" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C0C:C88:3:EB0000:0:0:0:" tvg-name="(18+) Penthouse Gold",(18+) Penthouse Gold
+#EXTVLCOPT:program=7180
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C0C:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="7181" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:1C0D:C88:3:EB0000:0:0:0:" tvg-name="(18+)  Penthouse Reality TV",(18+)  Penthouse Reality TV
+#EXTVLCOPT:program=7181
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1C0D:C88:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="21124" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_5284_C96_3_EB0000_0_0_0.png" tvg-id="1:0:1:5284:C96:3:EB0000:0:0:0:" tvg-name="(18+) Man-X (00-06)",(18+) Man-X (00-06)
+#EXTVLCOPT:program=21124
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:5284:C96:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14131" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3733_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3733:C8E:3:EB0000:0:0:0:" tvg-name="CANAL+ Sport (CZ)",CANAL+ Sport (CZ)
+#EXTVLCOPT:program=14131
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3733:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8011" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F4B_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F4B:CA1:3:EB0000:0:0:0:" tvg-name="CANAL+ Sport 2 (CZ)",CANAL+ Sport 2 (CZ)
+#EXTVLCOPT:program=8011
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F4B:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8008" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F48_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F48:CA1:3:EB0000:0:0:0:" tvg-name="CT 1 JM HD",CT 1 JM HD
+#EXTVLCOPT:program=8008
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F48:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8007" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F47_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F47:CA1:3:EB0000:0:0:0:" tvg-name="CT 1 SM HD",CT 1 SM HD
+#EXTVLCOPT:program=8007
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F47:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8012" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F4C_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F4C:CA1:3:EB0000:0:0:0:" tvg-name="CT 1 JZC HD",CT 1 JZC HD
+#EXTVLCOPT:program=8012
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F4C:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8010" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_1F4A_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:1:1F4A:CA1:3:EB0000:0:0:0:" tvg-name="CT 1 SVC HD",CT 1 SVC HD
+#EXTVLCOPT:program=8010
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:1F4A:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13202" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3392:C9D:3:EB0000:0:0:0:" tvg-name="Prima HD",Prima HD
+#EXTVLCOPT:program=13202
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3392:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13201" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3391:C9D:3:EB0000:0:0:0:" tvg-name="Nova HD",Nova HD
+#EXTVLCOPT:program=13201
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3391:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13205" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3395:C9D:3:EB0000:0:0:0:" tvg-name="Nova Cinema HD",Nova Cinema HD
+#EXTVLCOPT:program=13205
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3395:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13204" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/images/default_picon.png" tvg-id="1:0:1:3394:C9D:3:EB0000:0:0:0:" tvg-name="Nova Action HD",Nova Action HD
+#EXTVLCOPT:program=13204
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3394:C9D:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14113" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3721_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3721:C8E:3:EB0000:0:0:0:" tvg-name="Nova Gold",Nova Gold
+#EXTVLCOPT:program=14113
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3721:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14114" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3722_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3722:C8E:3:EB0000:0:0:0:" tvg-name="Nova Fun HD",Nova Fun HD
+#EXTVLCOPT:program=14114
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3722:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14115" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3723_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3723:C8E:3:EB0000:0:0:0:" tvg-name="Nova Lady",Nova Lady
+#EXTVLCOPT:program=14115
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3723:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14112" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3720_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:1:3720:C8E:3:EB0000:0:0:0:" tvg-name="Markiza International",Markiza International
+#EXTVLCOPT:program=14112
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3720:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="13136" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_3350_C93_3_EB0000_0_0_0.png" tvg-id="1:0:1:3350:C93:3:EB0000:0:0:0:" tvg-name="JOJ Family HD",JOJ Family HD
+#EXTVLCOPT:program=13136
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:3350:C93:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14052" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_1_36E4_C8C_3_EB0000_0_0_0.png" tvg-id="1:0:1:36E4:C8C:3:EB0000:0:0:0:" tvg-name="Paramount Network",Paramount Network
+#EXTVLCOPT:program=14052
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:1:36E4:C8C:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="5159" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1427_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1427:CA2:3:EB0000:0:0:0:" tvg-name="RADIO VLNA",RADIO VLNA
+#EXTVLCOPT:program=5159
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1427:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4921" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1339_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1339:CA2:3:EB0000:0:0:0:" tvg-name="Slovensko",Slovensko
+#EXTVLCOPT:program=4921
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1339:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4922" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133A_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133A:CA2:3:EB0000:0:0:0:" tvg-name="ReginaBA",ReginaBA
+#EXTVLCOPT:program=4922
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133A:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4923" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133B_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133B:CA2:3:EB0000:0:0:0:" tvg-name="ReginaBB",ReginaBB
+#EXTVLCOPT:program=4923
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133B:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4924" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133C_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133C:CA2:3:EB0000:0:0:0:" tvg-name="ReginaKE",ReginaKE
+#EXTVLCOPT:program=4924
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133C:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4925" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133D_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133D:CA2:3:EB0000:0:0:0:" tvg-name="Devin",Devin
+#EXTVLCOPT:program=4925
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133D:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4926" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133E_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133E:CA2:3:EB0000:0:0:0:" tvg-name="Radio_FM",Radio_FM
+#EXTVLCOPT:program=4926
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133E:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4933" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1345_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1345:CA2:3:EB0000:0:0:0:" tvg-name="Melody Z",Melody Z
+#EXTVLCOPT:program=4933
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1345:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4934" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1346_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1346:CA2:3:EB0000:0:0:0:" tvg-name="Melody S",Melody S
+#EXTVLCOPT:program=4934
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1346:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4935" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1347_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1347:CA2:3:EB0000:0:0:0:" tvg-name="Melody V",Melody V
+#EXTVLCOPT:program=4935
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1347:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4951" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1357_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1357:CA2:3:EB0000:0:0:0:" tvg-name="Expres Z",Expres Z
+#EXTVLCOPT:program=4951
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1357:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4936" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1348_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1348:CA2:3:EB0000:0:0:0:" tvg-name="Radio Lumen",Radio Lumen
+#EXTVLCOPT:program=4936
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1348:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4929" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1341_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1341:CA2:3:EB0000:0:0:0:" tvg-name="Junior",Junior
+#EXTVLCOPT:program=4929
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1341:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4928" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1340_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1340:CA2:3:EB0000:0:0:0:" tvg-name="Litera",Litera
+#EXTVLCOPT:program=4928
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1340:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4932" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1344_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1344:CA2:3:EB0000:0:0:0:" tvg-name="Slovakia",Slovakia
+#EXTVLCOPT:program=4932
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1344:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4930" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1342_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1342:CA2:3:EB0000:0:0:0:" tvg-name="PatriaFM",PatriaFM
+#EXTVLCOPT:program=4930
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1342:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4931" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1343_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1343:CA2:3:EB0000:0:0:0:" tvg-name="PatriaRD",PatriaRD
+#EXTVLCOPT:program=4931
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1343:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4955" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_135B_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:135B:CA2:3:EB0000:0:0:0:" tvg-name="Europa 2 S",Europa 2 S
+#EXTVLCOPT:program=4955
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:135B:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4956" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_135C_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:135C:CA2:3:EB0000:0:0:0:" tvg-name="Europa 2 V",Europa 2 V
+#EXTVLCOPT:program=4956
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:135C:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4957" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_135D_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:135D:CA2:3:EB0000:0:0:0:" tvg-name="Fun Radio Z",Fun Radio Z
+#EXTVLCOPT:program=4957
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:135D:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4958" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_135E_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:135E:CA2:3:EB0000:0:0:0:" tvg-name="Fun Radio S",Fun Radio S
+#EXTVLCOPT:program=4958
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:135E:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4959" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_135F_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:135F:CA2:3:EB0000:0:0:0:" tvg-name="Fun Radio V",Fun Radio V
+#EXTVLCOPT:program=4959
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:135F:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8051" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F73_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F73:CA1:3:EB0000:0:0:0:" tvg-name="CRo Radiozurnal",CRo Radiozurnal
+#EXTVLCOPT:program=8051
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F73:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8052" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F74_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F74:CA1:3:EB0000:0:0:0:" tvg-name="CRo DVOJKA",CRo DVOJKA
+#EXTVLCOPT:program=8052
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F74:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8053" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F75_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F75:CA1:3:EB0000:0:0:0:" tvg-name="CRo VLTAVA",CRo VLTAVA
+#EXTVLCOPT:program=8053
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F75:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8054" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F76_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F76:CA1:3:EB0000:0:0:0:" tvg-name="CRo PLUS",CRo PLUS
+#EXTVLCOPT:program=8054
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F76:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8055" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F77_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F77:CA1:3:EB0000:0:0:0:" tvg-name="CRo RADIO WAVE",CRo RADIO WAVE
+#EXTVLCOPT:program=8055
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F77:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8056" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F78_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F78:CA1:3:EB0000:0:0:0:" tvg-name="CRo RADIO JUNIOR",CRo RADIO JUNIOR
+#EXTVLCOPT:program=8056
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F78:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8057" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F79_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F79:CA1:3:EB0000:0:0:0:" tvg-name="CRo D-DUR",CRo D-DUR
+#EXTVLCOPT:program=8057
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F79:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8058" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7A_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7A:CA1:3:EB0000:0:0:0:" tvg-name="CRo JAZZ",CRo JAZZ
+#EXTVLCOPT:program=8058
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7A:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8059" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7B_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7B:CA1:3:EB0000:0:0:0:" tvg-name="CRo RADIO PRAHA",CRo RADIO PRAHA
+#EXTVLCOPT:program=8059
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7B:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8060" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7C_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7C:CA1:3:EB0000:0:0:0:" tvg-name="CRo STREDNI CECHY",CRo STREDNI CECHY
+#EXTVLCOPT:program=8060
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7C:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8061" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7D_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7D:CA1:3:EB0000:0:0:0:" tvg-name="CRo RADIO PRAGUE Int",CRo RADIO PRAGUE Int
+#EXTVLCOPT:program=8061
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7D:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8062" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7E_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7E:CA1:3:EB0000:0:0:0:" tvg-name="CRo BRNO",CRo BRNO
+#EXTVLCOPT:program=8062
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7E:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8063" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F7F_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F7F:CA1:3:EB0000:0:0:0:" tvg-name="CRo C.BUDEJOVICE",CRo C.BUDEJOVICE
+#EXTVLCOPT:program=8063
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F7F:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8064" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F80_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F80:CA1:3:EB0000:0:0:0:" tvg-name="CRo H.KRALOVE",CRo H.KRALOVE
+#EXTVLCOPT:program=8064
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F80:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8065" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F81_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F81:CA1:3:EB0000:0:0:0:" tvg-name="CRo KARLOVY VARY",CRo KARLOVY VARY
+#EXTVLCOPT:program=8065
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F81:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8066" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F82_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F82:CA1:3:EB0000:0:0:0:" tvg-name="CRo LIBEREC",CRo LIBEREC
+#EXTVLCOPT:program=8066
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F82:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8067" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F83_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F83:CA1:3:EB0000:0:0:0:" tvg-name="CRo VYSOCINA",CRo VYSOCINA
+#EXTVLCOPT:program=8067
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F83:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8068" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F84_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F84:CA1:3:EB0000:0:0:0:" tvg-name="CRo PARDUBICE",CRo PARDUBICE
+#EXTVLCOPT:program=8068
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F84:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8069" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F85_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F85:CA1:3:EB0000:0:0:0:" tvg-name="CRo PLZEN",CRo PLZEN
+#EXTVLCOPT:program=8069
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F85:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8070" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F86_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F86:CA1:3:EB0000:0:0:0:" tvg-name="CRo OLOMOUC",CRo OLOMOUC
+#EXTVLCOPT:program=8070
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F86:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8071" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F87_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F87:CA1:3:EB0000:0:0:0:" tvg-name="CRo OSTRAVA",CRo OSTRAVA
+#EXTVLCOPT:program=8071
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F87:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8072" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F88_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F88:CA1:3:EB0000:0:0:0:" tvg-name="CRo SEVER",CRo SEVER
+#EXTVLCOPT:program=8072
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F88:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="8073" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1F89_CA1_3_EB0000_0_0_0.png" tvg-id="1:0:2:1F89:CA1:3:EB0000:0:0:0:" tvg-name="CRo ZLIN",CRo ZLIN
+#EXTVLCOPT:program=8073
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1F89:CA1:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4941" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_134D_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:134D:CA2:3:EB0000:0:0:0:" tvg-name="BEAT JM",BEAT JM
+#EXTVLCOPT:program=4941
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:134D:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4943" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_134F_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:134F:CA2:3:EB0000:0:0:0:" tvg-name="BEAT JZ",BEAT JZ
+#EXTVLCOPT:program=4943
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:134F:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4942" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_134E_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:134E:CA2:3:EB0000:0:0:0:" tvg-name="BEAT SM",BEAT SM
+#EXTVLCOPT:program=4942
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:134E:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4944" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1350_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1350:CA2:3:EB0000:0:0:0:" tvg-name="BEAT SV",BEAT SV
+#EXTVLCOPT:program=4944
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1350:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4940" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_134C_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:134C:CA2:3:EB0000:0:0:0:" tvg-name="Radio Beat",Radio Beat
+#EXTVLCOPT:program=4940
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:134C:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4945" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1351_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1351:CA2:3:EB0000:0:0:0:" tvg-name="COUNTRY RADIO",COUNTRY RADIO
+#EXTVLCOPT:program=4945
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1351:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4946" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1352_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1352:CA2:3:EB0000:0:0:0:" tvg-name="COUNTRY JZ",COUNTRY JZ
+#EXTVLCOPT:program=4946
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1352:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4947" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1353_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:1353:CA2:3:EB0000:0:0:0:" tvg-name="COUNTRY SV",COUNTRY SV
+#EXTVLCOPT:program=4947
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1353:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="14150" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_3746_C8E_3_EB0000_0_0_0.png" tvg-id="1:0:2:3746:C8E:3:EB0000:0:0:0:" tvg-name="Proglas",Proglas
+#EXTVLCOPT:program=14150
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:3746:C8E:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4927" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_133F_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:133F:CA2:3:EB0000:0:0:0:" tvg-name="Pyramida",Pyramida
+#EXTVLCOPT:program=4927
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:133F:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="4939" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_134B_CA2_3_EB0000_0_0_0.png" tvg-id="1:0:2:134B:CA2:3:EB0000:0:0:0:" tvg-name="PROSTOR",PROSTOR
+#EXTVLCOPT:program=4939
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:134B:CA2:3:EB0000:0:0:0:
+#EXTINF:-1 tvg-chno="6193" tvg-logo="http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu/picon/1_0_2_1831_C82_3_EB0000_0_0_0.png" tvg-id="1:0:2:1831:C82:3:EB0000:0:0:0:" tvg-name="Veronica Goud van Oud",Veronica Goud van Oud
+#EXTVLCOPT:program=6193
+http://-sid:c4ca95e67019ed584a22f26c8be54645dae624b14d1d7fffa7b2cc5f27b73907@mainoctagon741.aniq.eu:8001/1:0:2:1831:C82:3:EB0000:0:0:0:
