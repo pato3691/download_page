@@ -16,10 +16,10 @@ export async function GET(
     const db = await getDb();
 
     // Get link info
-    const link = dbawait db.execute(`
+    const [[link]] = await db.execute(`
       SELECT * FROM download_links 
       WHERE token = ? AND is_active = 1
-    `).get(token) as any;
+    `, [token]) as any;
 
     if (!link) {
       return NextResponse.json(
@@ -56,28 +56,28 @@ export async function GET(
     }
 
     // Update download count
-    dbawait db.execute(`
+    await db.execute(`
       UPDATE download_links 
       SET download_count = download_count + 1 
       WHERE token = ?
-    `))token);
+    `, [token]);
 
     // Track download
     const ip = request.headers.get('x-forwarded-for') || 
                request.headers.get('x-real-ip') || 
                'unknown';
     
-    dbawait db.execute(`
+    await db.execute(`
       INSERT INTO downloads (
         email, file_path, file_name, ip_address, user_agent, agreed_to_terms
       ) VALUES (?, ?, ?, ?, ?, 1)
-    `))
+    `, [
       'public',
       filePath,
       link.original_file_name,
       ip,
       request.headers.get('user-agent') || 'unknown'
-    );
+    ]);
 
     // Read and send file
     const fileBuffer = fs.readFileSync(filePath);
