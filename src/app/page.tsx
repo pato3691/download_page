@@ -1,29 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Download, Upload, Settings } from 'lucide-react';
-import DownloadModal from '@/components/DownloadModal';
-import FileList from '@/components/FileList';
-
-interface FileItem {
-  id?: number;
-  file_id: string;
-  file_name: string;
-  file_path: string;
-  file_size?: number;
-  is_folder?: boolean;
-  parent_folder_id?: string;
-}
+import React, { useState } from 'react';
+import { Download, Settings } from 'lucide-react';
+import PublicDownloads from '@/components/PublicDownloads';
+import AdminPanel from '@/components/AdminPanel';
 
 export default function Home() {
-  const [showDownloadModal, setShowDownloadModal] = useState(false);
-  const [selectedFile, setSelectedFile] = useState<FileItem | null>(null);
   const [showAdmin, setShowAdmin] = useState(false);
-
-  const handleDownloadClick = (file: FileItem) => {
-    setSelectedFile(file);
-    setShowDownloadModal(true);
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
@@ -33,7 +16,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Download size={32} />
-              <h1 className="text-3xl font-bold">Download & Upload</h1>
+              <h1 className="text-3xl font-bold">Download Hub</h1>
             </div>
             <button
               onClick={() => setShowAdmin(!showAdmin)}
@@ -44,7 +27,7 @@ export default function Home() {
             </button>
           </div>
           <p className="text-purple-100 mt-2">
-            Bezpečné stahovanie súborov s emailovou registráciou
+            Bezpečné a jednoduché sťahovanie súborov
           </p>
         </div>
       </div>
@@ -70,14 +53,7 @@ export default function Home() {
             {/* Files Section */}
             <div className="lg:col-span-2">
               <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-center gap-2 mb-6">
-                  <Download size={24} className="text-purple-600" />
-                  <h2 className="text-2xl font-bold text-gray-800">
-                    Dostupné súbory
-                  </h2>
-                </div>
-
-                <FileList onDownload={handleDownloadClick} />
+                <PublicDownloads />
               </div>
             </div>
 
@@ -90,62 +66,46 @@ export default function Home() {
                 <div className="space-y-4 text-sm text-gray-700">
                   <div>
                     <div className="font-semibold text-purple-600 mb-1">
-                      1️⃣ Výber súboru
+                      1️⃣ Vyberte súbor
                     </div>
-                    <p>Vyberte súbor, ktorý chcete stiahnuť</p>
+                    <p>Kliknite na súbor, ktorý chcete stiahnuť</p>
                   </div>
                   <div>
                     <div className="font-semibold text-purple-600 mb-1">
-                      2️⃣ Počkajte 60 sekúnd
+                      2️⃣ Zadajte email
                     </div>
-                    <p>Odpočet vám zabezpečí čas na preskúmanie podmienok</p>
+                    <p>Váš email budeme potrebovať na potvrdenie</p>
                   </div>
                   <div>
                     <div className="font-semibold text-purple-600 mb-1">
-                      3️⃣ Vyplňte email
+                      3️⃣ Súhlas s podmienenkami
                     </div>
-                    <p>Zadajte svoju emailovú adresu pre potvrdenie</p>
+                    <p>Potvrďte, že súhlasíte s podmienkami stahovania</p>
                   </div>
                   <div>
                     <div className="font-semibold text-purple-600 mb-1">
-                      4️⃣ Súhlaste s podmienkami
+                      4️⃣ Stiahnuť
                     </div>
-                    <p>Potvrďte, že súhlasíte s podmienenkami</p>
-                  </div>
-                  <div>
-                    <div className="font-semibold text-purple-600 mb-1">
-                      5️⃣ Stiahnuť
-                    </div>
-                    <p>Kliknite na tlačidlo Stiahnuť a súbor sa začne sťahovať</p>
+                    <p>Kliknite na Stiahnuť a súbor sa začne sťahovať</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg shadow-md p-6 border border-blue-200">
                 <p className="text-sm text-blue-700">
-                  ℹ️ <strong>Úspešne stažený súbor?</strong> Potvrdzovací email
-                  bude odoslaný na vašu adresu.
+                  🔒 Všetky údaje sú chránené a nikdy sa nepredávajú tretím stranám.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg shadow-md p-6 border border-amber-200">
+                <p className="text-sm text-amber-700">
+                  ⚠️ Našli ste nebezpečný súbor? Nájdete možnosť nahlásenia pod každým súborom.
                 </p>
               </div>
             </div>
           </div>
         )}
       </div>
-
-      {/* Download Modal */}
-      {selectedFile && (
-        <DownloadModal
-          isOpen={showDownloadModal}
-          onClose={() => {
-            setShowDownloadModal(false);
-            setSelectedFile(null);
-          }}
-          fileName={selectedFile.file_name}
-          filePath={selectedFile.file_path}
-        />
-      )}
     </div>
   );
 }
-
-import AdminPanel from '@/components/AdminPanel';

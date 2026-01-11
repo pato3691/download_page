@@ -8,13 +8,17 @@ import {
   FileUp,
   Send,
   AlertCircle,
+  Link2,
+  Flag,
 } from 'lucide-react';
 import SmtpSettings from './admin/SmtpSettings';
 import BulkEmailSender from './admin/BulkEmailSender';
 import AdminStats from './admin/AdminStats';
 import FileManager from './admin/FileManager';
+import LinkGenerator from './admin/LinkGenerator';
+import ReportManager from './admin/ReportManager';
 
-type TabType = 'stats' | 'smtp' | 'bulk-email' | 'files';
+type TabType = 'stats' | 'smtp' | 'bulk-email' | 'files' | 'links' | 'reports';
 
 export default function AdminPanel() {
   const [activeTab, setActiveTab] = useState<TabType>('stats');
@@ -76,9 +80,11 @@ export default function AdminPanel() {
 
   const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
     { id: 'stats', label: 'Štatistika', icon: <BarChart3 size={18} /> },
-    { id: 'smtp', label: 'SMTP', icon: <Settings size={18} /> },
-    { id: 'bulk-email', label: 'Hromadný email', icon: <Send size={18} /> },
     { id: 'files', label: 'Súbory', icon: <FileUp size={18} /> },
+    { id: 'links', label: 'Linky', icon: <Link2 size={18} /> },
+    { id: 'smtp', label: 'SMTP', icon: <Settings size={18} /> },
+    { id: 'bulk-email', label: 'Hromadný Email', icon: <Send size={18} /> },
+    { id: 'reports', label: 'Nahlásenia', icon: <Flag size={18} /> },
   ];
 
   return (
@@ -115,9 +121,11 @@ export default function AdminPanel() {
         {/* Content */}
         <div className="bg-white rounded-lg shadow-md p-6">
           {activeTab === 'stats' && <AdminStats />}
+          {activeTab === 'files' && <FileManager />}
+          {activeTab === 'links' && <LinkGenerator />}
           {activeTab === 'smtp' && <SmtpSettings />}
           {activeTab === 'bulk-email' && <BulkEmailSender />}
-          {activeTab === 'files' && <FileManager />}
+          {activeTab === 'reports' && <ReportManager />}
         </div>
       </div>
     </div>

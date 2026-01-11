@@ -77,6 +77,43 @@ export function initializeDb(): void {
     )
   `);
 
+  // Tabuľka pre generované download linky
+  database.exec(`
+    CREATE TABLE IF NOT EXISTS download_links (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      token TEXT UNIQUE NOT NULL,
+      file_id TEXT NOT NULL,
+      file_name TEXT NOT NULL,
+      original_file_name TEXT NOT NULL,
+      file_size INTEGER,
+      description TEXT,
+      is_active BOOLEAN DEFAULT 1,
+      download_count INTEGER DEFAULT 0,
+      max_downloads INTEGER,
+      expires_at DATETIME,
+      created_by TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (file_id) REFERENCES uploaded_files(file_id)
+    )
+  `);
+
+  // Tabuľka pre nahlasovanie nevhodných súborov
+  database.exec(`
+    CREATE TABLE IF NOT EXISTS file_reports (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      download_token TEXT NOT NULL,
+      file_name TEXT NOT NULL,
+      reporter_email TEXT NOT NULL,
+      reason TEXT NOT NULL,
+      description TEXT,
+      status TEXT DEFAULT 'pending',
+      resolved_at DATETIME,
+      notes TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (download_token) REFERENCES download_links(token)
+    )
+  `);
+
   database.close();
 }
 
@@ -125,4 +162,33 @@ export interface UploadedFile {
   parent_folder_id?: string;
   created_at?: string;
   updated_at?: string;
+}
+
+export interface DownloadLink {
+  id?: number;
+  token: string;
+  file_id: string;
+  file_name: string;
+  original_file_name: string;
+  file_size?: number;
+  description?: string;
+  is_active?: boolean;
+  download_count?: number;
+  max_downloads?: number | null;
+  expires_at?: string | null;
+  created_by?: string;
+  created_at?: string;
+}
+
+export interface FileReport {
+  id?: number;
+  download_token: string;
+  file_name: string;
+  reporter_email: string;
+  reason: string;
+  description?: string;
+  status?: 'pending' | 'resolved' | 'dismissed';
+  resolved_at?: string | null;
+  notes?: string;
+  created_at?: string;
 }
