@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { writeFile, mkdir } from 'fs/promises';
 import { v4 as uuidv4 } from 'uuid';
+import { registerUploadedFile } from '@/lib/file-manager';
 
 const UPLOAD_DIR = process.env.NODE_ENV === 'production'
   ? '/var/www/html/down/public/uploads'
@@ -37,12 +38,13 @@ export async function POST(request: NextRequest) {
     const fileName = `${fileId}${ext}`;
     const filePath = path.join(UPLOAD_DIR, fileName);
 
-    // Read file data
+    // Read and write file to disk
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
-
-    // Write file
     await writeFile(filePath, buffer);
+
+    // Register in database so admin UI can list & generate links
+    const uploaded = await registerUploadedFile(file.name, filePath, file.size, false, null);
 
     console.log(`✓ Upload success: ${file.name} -> ${fileName}`);
 
@@ -50,7 +52,7 @@ export async function POST(request: NextRequest) {
       success: true,
       message: 'Súbor bol úspešne nahraný',
       originalFileName: file.name,
-      fileId: fileId,
+      fileId: uploaded.file_id,
       size: file.size,
     });
   } catch (error) {
