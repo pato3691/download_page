@@ -1,380 +1,270 @@
-# Production Deployment Guide - Debian 13 + Apache
+# Production Deployment - Debian 13 + Apache (No Exposed Port)
 
-## Deployment to /var/www/html/down
+**Port Used**: 2314 (internal, not exposed to public)  
+**Web Access**: http://your-domain.com/down/
 
-### Prerequisites
-- Debian 13
-- Node.js 18+ (via NodeSource or nvm)
-- npm
-- Apache 2.4+
-- PM2 (process manager)
-- sudo access
+## Quick Start (Automated)
 
-### Installation Steps
-
-#### 1. Update System
 ```bash
-sudo apt update
-sudo apt upgrade -y
+# 1. On your Debian 13 server
+cd /var/www/html
+sudo git clone https://github.com/pato3691/download_page.git download_page
+cd download_page
+
+# 2. Run setup script
+sudo chmod +x setup-debian.sh
+sudo ./setup-debian.sh
 ```
 
-#### 2. Install Node.js (Debian 13)
+✅ **Done!** Access at: **http://your-domain.com/down/**
+
+---
+
+## Manual Setup
+
+### 1. Install Node.js
+
 ```bash
-# Using NodeSource repository (recommended)
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
-
-# Verify installation
-node --version
-npm --version
+sudo apt install -y nodejs npm git apache2
 ```
 
-#### 3. Install Apache and Required Modules
+### 2. Enable Apache Modules
+
 ```bash
-sudo apt install -y apache2
 sudo a2enmod proxy
 sudo a2enmod proxy_http
 sudo a2enmod rewrite
 sudo a2enmod headers
 sudo a2enmod deflate
-sudo systemctl enable apache2
+sudo a2enmod expires
+sudo systemctl restart apache2
 ```
 
-#### 4. Clone Repository
+### 3. Clone Repository
+
 ```bash
 cd /var/www/html
-sudo git clone https://github.com/pato3691/download_page.git down
-sudo chown -R $USER:$USER down
-cd down
+git clone https://github.com/pato3691/download_page.git download_page
+cd download_page
+sudo chown -R $USER:$USER .
 ```
 
-#### 5. Install Dependencies and Build
+### 4. Install & Build
+
 ```bash
-cd /var/www/html/down
 npm install
 npm run build
 ```
 
-#### 6. Install PM2 Globally
+### 5. Start with PM2
+
 ```bash
 sudo npm install -g pm2
-```
-
-#### 7. Start Application with PM2
-```bash
-cd /var/www/html/down
-pm2 start npm --name "download-app" -- start
-pm2 startup systemd -u $USER --hp /home/$USER
+pm2 start ecosystem.config.js
 pm2 save
+pm2 startup systemd -u $USER --hp /home/$USER
 ```
 
-Verify PM2:
-```bash
-pm2 list
-pm2 logs download-app
-```
+### 6. Configure Apache
 
-#### 8. Configure Apache VirtualHost
-
-Copy the configuration:
-```bash
-sudo cp /var/www/html/down/apache-vhost.conf /etc/apache2/sites-available/download.conf
-```
-
-Edit `/etc/apache2/sites-available/download.conf`:
 ```bash
 sudo nano /etc/apache2/sites-available/download.conf
 ```
 
-Update:
-- `ServerName your_domain.com` - your actual domain
-- `ServerAlias www.your_domain.com` - if needed
+Paste:
 
-Enable the site:
-```bash
-sudo a2ensite download.conf
-sudo a2dissite 000-default.conf
-sudo apache2ctl configtest
+```apache
+<VirtualHost *:80>
+    ServerName your-domain.com
+    ServerAlias www.your-domain.com
+    DocumentRoot /var/www/html
+
+    # Proxy to port 2314 (internal)
+    <Location /down/>
+        ProxyPreserveHost On
+        ProxyPass http://127.0.0.1:2314/
+        ProxyPassReverse http://127.0.0.1:2314/
+        Header set X-Real-IP %{REMOTE_ADDR}s
+        Header set X-Forwarded-For %{HTTP:X-Forwarded-For}e
+        Header set X-Forwarded-Proto "http"
+    </Location>
+
+    # Cache static files
+    <LocationMatch "^/down/_next/static/">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+        ProxyPass http://127.0.0.1:2314/_next/static/
+    </LocationMatch>
+
+    ErrorLog ${APACHE_LOG_DIR}/download_error.log
+    CustomLog ${APACHE_LOG_DIR}/download_access.log combined
+</VirtualHost>
 ```
 
-Should output: `Syntax OK`
+Enable:
 
-Reload Apache:
 ```bash
+sudo a2ensite download.conf
+sudo a2dissite 000-default.conf 2>/dev/null || true
+sudo apache2ctl configtest
 sudo systemctl reload apache2
 ```
 
-#### 9. Initialize Database
+### 7. Initialize Database
+
 ```bash
-curl http://localhost:3000/api/init-db
+curl http://127.0.0.1:2314/api/init-db
 ```
 
-### Access Application
+---
 
-- **Via Apache**: `http://your_domain.com/down/`
-- **Direct PM2**: `http://localhost:3000/`
-- **Admin Panel**: Click Settings (⚙️) icon
-- **Admin Password**: `admin123`
+## Access
 
-### Configuration
+- **User Access**: http://your-domain.com/down/
+- **Admin**: Click Settings (⚙️) → Password: `admin123`
+- **Internal**: http://127.0.0.1:2314/
 
-#### Change Admin Password
-Edit `/var/www/html/down/src/components/AdminPanel.tsx`:
+---
 
-Find line with `if (password === 'admin123')` and change to your secure password.
+## Configuration
 
-Then rebuild:
+### Change Admin Password ⚠️
+
 ```bash
-cd /var/www/html/down
+nano src/components/AdminPanel.tsx
+```
+
+Find and change:
+```typescript
+if (password === 'admin123') {
+```
+
+Rebuild:
+```bash
 npm run build
 pm2 restart download-app
 ```
 
-#### SMTP Configuration
-1. Open admin panel at `http://your_domain.com/down/`
+### SMTP Setup
+
+1. Go to http://your-domain.com/down/
 2. Click Settings (⚙️)
-3. Enter admin password
-4. Go to SMTP tab
-5. Fill in:
-   - **Host**: `smtp.gmail.com` (for Gmail)
-   - **Port**: `587` (TLS) or `465` (SSL)
-   - **Email**: your email address
-   - **Password**: your email password or app password
-   - **From Email**: sender email
+3. SMTP tab → Fill in details
+4. Save
 
-### Monitoring and Management
+---
 
-#### Check Application Status
-```bash
-pm2 list
-pm2 status
-```
+## Management
 
-#### View Logs
+### Logs
+
 ```bash
 pm2 logs download-app
-pm2 logs download-app --err
+tail -f /var/log/apache2/download_error.log
 ```
 
-#### Restart Application
+### Restart
+
 ```bash
 pm2 restart download-app
-pm2 restart download-app --wait-ready --listen-timeout 3000
+sudo systemctl reload apache2
 ```
 
-#### Stop/Start
+### Stop/Start
+
 ```bash
 pm2 stop download-app
-pm2 start download-app
+pm2 start ecosystem.config.js
 ```
 
-#### Check Apache Status
-```bash
-sudo systemctl status apache2
-sudo apache2ctl configtest
-```
-
-#### View Apache Logs
-```bash
-sudo tail -f /var/log/apache2/download_page_access.log
-sudo tail -f /var/log/apache2/download_page_error.log
-```
-
-### SSL/TLS with Certbot
-
-#### Install Certbot
-```bash
-sudo apt install -y certbot python3-certbot-apache
-```
-
-#### Get Certificate
-```bash
-sudo certbot --apache -d your_domain.com -d www.your_domain.com
-```
-
-Certbot will automatically update your Apache configuration.
-
-#### Auto-renewal
-```bash
-sudo systemctl enable certbot.timer
-sudo systemctl start certbot.timer
-```
-
-Check renewal:
-```bash
-sudo certbot renew --dry-run
-```
-
-### Updating Application
+### Update Code
 
 ```bash
-cd /var/www/html/down
-git pull origin main
+cd /var/www/html/download_page
+git pull
 npm install
 npm run build
 pm2 restart download-app
+```
+
+---
+
+## Troubleshooting
+
+### Port 2314 in Use
+
+```bash
+sudo lsof -i :2314
+sudo kill -9 <PID>
+pm2 restart download-app
+```
+
+### Apache Not Working
+
+```bash
+sudo apache2ctl configtest
+sudo a2enmod proxy proxy_http
+sudo systemctl reload apache2
+```
+
+### Database Error
+
+```bash
+curl http://127.0.0.1:2314/api/init-db
 ```
 
 ### Database Backup
 
 ```bash
-# Backup database
-cp /var/www/html/down/data/app.db /var/www/html/down/data/app.db.backup.$(date +%Y%m%d)
-
-# Scheduled backup (cron)
-0 2 * * * cp /var/www/html/down/data/app.db /var/www/html/down/data/backups/app.db.$(date +\%Y\%m\%d)
+cp /var/www/html/download_page/data/app.db /var/www/html/download_page/data/app.db.backup
 ```
 
-### Troubleshooting
+---
 
-#### Port 3000 Already in Use
-```bash
-sudo lsof -i :3000
-sudo kill -9 <PID>
-pm2 restart download-app
-```
-
-#### Apache Not Proxying
-```bash
-# Test Apache config
-sudo apache2ctl configtest
-
-# Enable required modules
-sudo a2enmod proxy
-sudo a2enmod proxy_http
-
-# Reload
-sudo systemctl reload apache2
-```
-
-#### Database Not Found
-```bash
-curl http://localhost:3000/api/init-db
-# or
-pm2 stop download-app
-rm -rf /var/www/html/down/data/app.db
-pm2 start download-app
-curl http://localhost:3000/api/init-db
-```
-
-#### Permissions Issues
-```bash
-sudo chown -R www-data:www-data /var/www/html/down
-sudo chmod -R 755 /var/www/html/down
-sudo chmod -R 775 /var/www/html/down/data
-sudo chmod -R 775 /var/www/html/down/public/uploads
-```
-
-#### Node Version Issues
-```bash
-node --version  # Should be 18+
-npm --version
-which node
-which npm
-```
-
-### Performance Optimization
-
-#### Enable Apache Modules
-```bash
-sudo a2enmod cache
-sudo a2enmod cache_disk
-sudo a2enmod expires
-```
-
-#### Increase Max Connections
-Edit `/etc/apache2/mods-enabled/mpm_prefork.conf`:
-```apache
-<IfModule mpm_prefork_module>
-    StartServers             10
-    MinSpareServers          10
-    MaxSpareServers          20
-    MaxRequestWorkers        256
-    MaxConnectionsPerChild   0
-</IfModule>
-```
-
-Reload:
-```bash
-sudo systemctl reload apache2
-```
-
-### Security Recommendations
-
-1. **Change Admin Password** ⚠️ IMPORTANT
-2. **Enable HTTPS** with Certbot
-3. **Setup Firewall**:
-   ```bash
-   sudo ufw allow 22/tcp
-   sudo ufw allow 80/tcp
-   sudo ufw allow 443/tcp
-   sudo ufw enable
-   ```
-4. **Regular Backups**
-5. **Monitor Logs**
-6. **Update Dependencies**:
-   ```bash
-   npm outdated
-   npm update
-   ```
-
-### Firewall Configuration
-```bash
-# Enable UFW
-sudo ufw enable
-
-# Allow ports
-sudo ufw allow 22/tcp    # SSH
-sudo ufw allow 80/tcp    # HTTP
-sudo ufw allow 443/tcp   # HTTPS
-
-# Check status
-sudo ufw status
-```
-
-### Final Checklist
-
-- [ ] Node.js installed (v18+)
-- [ ] Apache with proxy modules enabled
-- [ ] Git repository cloned to /var/www/html/down
-- [ ] Dependencies installed (`npm install`)
-- [ ] Build created (`npm run build`)
-- [ ] PM2 started and running
-- [ ] Apache VirtualHost configured
-- [ ] Database initialized
-- [ ] SMTP configured in admin panel
-- [ ] Admin password changed
-- [ ] SSL certificate installed (optional but recommended)
-- [ ] Firewall configured
-- [ ] Backups scheduled
-
-### Support
-
-For issues:
-1. Check PM2 logs: `pm2 logs`
-2. Check Apache logs: `/var/log/apache2/`
-3. Check application log: `pm2 logs download-app`
-4. Refer to GitHub: https://github.com/pato3691/download_page
-
-### Quick Commands Reference
+## SSL/TLS (HTTPS)
 
 ```bash
-# Start/Stop/Restart
-pm2 restart download-app
-pm2 stop download-app
-pm2 start download-app
+sudo apt install -y certbot python3-certbot-apache
+sudo certbot --apache -d your-domain.com
+```
+
+---
+
+## Quick Commands
+
+```bash
+# Status
+pm2 list
 
 # Logs
 pm2 logs download-app
-tail -f /var/log/apache2/download_page_error.log
 
-# Update
-cd /var/www/html/down && git pull && npm install && npm run build && pm2 restart download-app
+# Restart all
+pm2 restart download-app && sudo systemctl reload apache2
+
+# Update & rebuild
+cd /var/www/html/download_page && git pull && npm install && npm run build && pm2 restart download-app
+
+# Port check
+sudo lsof -i :2314
 
 # Backup
-cp /var/www/html/down/data/app.db /var/www/html/down/data/app.db.backup
-
-# Status
-pm2 list
-apache2ctl status
+cp /var/www/html/download_page/data/app.db /var/www/html/download_page/data/app.db.backup.$(date +%Y%m%d)
 ```
+
+---
+
+## Security Checklist
+
+- [ ] Changed admin password
+- [ ] Configured SMTP
+- [ ] SSL/HTTPS enabled
+- [ ] Firewall enabled
+- [ ] Database backups scheduled
+- [ ] Logs monitored
+
+---
+
+**Tested**: Debian 13 + Apache 2.4 + Node.js 20  
+**Internal Port**: 2314  
+**Web Path**: /down/
