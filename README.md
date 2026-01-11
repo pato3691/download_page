@@ -1,199 +1,169 @@
 # Download & Upload System
 
-Moderný systém na bezpečné sťahovanie a nahrávanie súborov s emailovou registráciou, administračným panelom a hromadným odosielaním emailov.
+Komplexný systém na upload/download súborov s administráciou, emailovými notifikáciami a hromadným odosielaním emailov.
 
-## Funkcionality
+## Vlastnosti
 
-### 🎯 Hlavné Funkcionality
-- **Download súborov** s 60 sekundovým odpočtom
-- **Emailová registrácia** - všetky downloady sa zaznamenávajú
-- **Priečinková štruktúra** - podpora na priechodenie priečinkami
-- **Správa súborov** - upload, delete, organizácia
-- **Admin panel** - kompletná kontrola systému
+### 👥 Používateľská strana
+- **Download s registráciou**: Email, IP, čas a typ súboru sa zaznamenávajú
+- **60-sekundový odpočet**: Čas na preskúmanie podmienok
+- **Emailová potvrdenka**: Automatické odoslanie potvrdenia po downloade
+- **Podpora zložiek**: Možnosť stahovania zložiek s hierarchiou
+- **Krásne UI**: Tailwind CSS s gradientmi a animáciami
 
-### 📊 Administrácia
-- **Štatistika** - celkové downloady, jedinečné emaily, podrobnosti
-- **SMTP Konfigurácia** - nastavenie vlastného email servera
-- **Hromadný email** - odoslanie správ skupinám recipientov
-- **Správa súborov** - mazanie a organizácia
-
-### 📧 Email Systém
-- Automatické potvrdzovacie emaily
-- Hromadné odosielanie
-- Zaznamenávanie všetkých emailov v databáze
-- Podpora vlastného SMTP servera
-
-### 🗄️ Databáza
-- SQLite s automatickými tabuľkami
-- Záznamy: downloads, emails, SMTP config, logy
-- IP adresa, User Agent, čas stiahnutia
+### 🔧 Administrácia
+- **SMTP Konfigurácia**: Nastavenie vlastného SMTP servera
+- **Štatistika**: Prehľad downloadov, emailov a trendov
+- **Správa súborov**: Upload, delete a organizácia súborov
+- **Hromadný email**: Odosielanie emailov viacerým príjemcom naraz
+- **Logy emailov**: Sledovanie stavu odoslaných emailov
 
 ## Technológie
 
-- **Frontend**: Next.js 16, React, Tailwind CSS
+- **Frontend**: Next.js 16+, React, TypeScript, Tailwind CSS
 - **Backend**: Next.js API Routes
-- **Databáza**: SQLite (better-sqlite3)
+- **Databáza**: SQLite s better-sqlite3
 - **Email**: Nodemailer
 - **Ikony**: Lucide React
-- **Validácia**: Zod
 
-## Inštalácia a Spustenie
+## Inštalácia
 
-### Požiadavky
-- Node.js 18+
-- npm
-
-### Kroky
-
-1. **Inštalácia dependencií**
 ```bash
+# Klonovanie
+git clone <repo-url>
+cd my_download_page
+
+# Inštalácia dependency
 npm install
-```
 
-2. **Inicializácia databázy**
-- Databáza sa automaticky vytvorí pri prvom spustení
-- Alebo navštívite: `http://localhost:3000/api/init-db`
+# Inicializácia databázy
+curl http://localhost:3000/api/init-db
 
-3. **Spustenie dev servera**
-```bash
+# Spustenie dev servera
 npm run dev
 ```
 
-4. **Otvoriť v prehliadači**
+## Nastavenie
+
+### 1. Inicializácia databázy
+Po prvom spustení navaštívte:
 ```
-http://localhost:3000
+http://localhost:3000/api/init-db
 ```
 
-## Konfigurácia
+### 2. SMTP Konfigurácia
+1. Prejdite na `/` a kliknite na **Settings** (ikona ozubeného kolesa)
+2. Zadajte heslo: `admin123`
+3. Prejdite na tab **SMTP**
+4. Vyplňte SMTP údaje vášho providera:
+   - **Host**: `smtp.gmail.com` (pre Gmail)
+   - **Port**: `587` (TLS) alebo `465` (SSL)
+   - **Email**: Vaša emailová adresa
+   - **Heslo**: Vaše heslo alebo app password
+   - **From Email**: Email odosielateľa
 
-### Admin Heslo
-Default admin heslo: `admin123`
-
-**ZMENIŤ V PRODUKCII!** Editujte súbor `src/components/AdminPanel.tsx` a zmeňte heslo.
-
-### SMTP Server Setup
-1. Navštívite Admin panel (kliknite na ikonu nastavení)
-2. Prejdite na záložku "SMTP"
-3. Zadajte:
-   - SMTP Host (napr. smtp.gmail.com)
-   - Port (napr. 587 alebo 465)
-   - Email užívateľa
-   - Heslo
-   - Email odosielateľa
-
-## Používanie
-
-### Sťahovanie súborov
-1. Kliknite na súbor v zozname
-2. Počkajte 60 sekúnd
-3. Vyplňte emailovú adresu
-4. Zaškrtnite súhlas s podmienkami
-5. Kliknite "Stiahnuť"
-6. Dostanete potvrdzovací email
-
-### Administrácia
-
-#### Štatistika
-- Celkový počet downloadov
-- Počet jedinečných emailov
-- Posledné downloady a emaily
-
-#### Hromadný Email
-- Vložte emaily (jeden na riadok)
-- Napíšte predmet a správu (HTML)
-- Kliknite "Odoslať Emaily"
-
-#### Správa Súborov
-- Prehliadajte nahraté súbory
-- Mažte súbory
-- Navigujte v priečinkoch
-
-## Štruktúra Projektu
-
-```
-my_download_page/
-├── src/
-│   ├── app/
-│   │   ├── api/              # API Routes
-│   │   │   ├── init-db/      # DB inicializácia
-│   │   │   ├── downloads/    # Download management
-│   │   │   ├── smtp-config/  # SMTP settings
-│   │   │   ├── files/        # File management
-│   │   │   └── admin/        # Admin endpoints
-│   │   ├── layout.tsx        # Root layout
-│   │   ├── page.tsx          # Hlavná stránka
-│   │   └── globals.css       # Global styles
-│   ├── components/           # React komponenty
-│   │   ├── AdminPanel.tsx    # Admin rozhranie
-│   │   ├── DownloadModal.tsx # Modal na stiahnutie
-│   │   ├── FileList.tsx      # Zoznam súborov
-│   │   └── admin/            # Admin komponenty
-│   └── lib/                  # Utility funkcie
-│       ├── db.ts            # Databázové funkcie
-│       ├── email.ts         # Email funkcie
-│       └── file-manager.ts  # Správa súborov
-├── public/
-│   └── uploads/             # Nahrané súbory
-├── data/
-│   └── app.db              # SQLite databáza
-├── package.json
-└── README.md
-```
+### 3. Upload Súborov
+1. V Admin Paneli prejdite na tab **Súbory**
+2. Tu budú viditeľné všetky súbory v `/public/uploads`
 
 ## API Endpoints
 
-### Databáza
-- `GET /api/init-db` - Inicializácia databázy
-
 ### Downloads
+- `POST /api/downloads` - Registrácia downloadovaného súboru
 - `GET /api/downloads?email=...` - Zoznam downloadov pre email
-- `POST /api/downloads` - Registrácia nového downloadu
 
 ### SMTP Config
-- `GET /api/smtp-config` - Získať SMTP nastavenia
-- `POST /api/smtp-config` - Uložiť SMTP nastavenia
+- `GET /api/smtp-config` - Načítanie SMTP konfigu
+- `POST /api/smtp-config` - Uloženie SMTP konfigu
 
-### Súbory
+### Files
 - `GET /api/files` - Zoznam súborov
-- `DELETE /api/files` - Zmazať súbor
+- `DELETE /api/files` - Zmazanie súboru
 
 ### Admin
-- `GET /api/admin/stats` - Štatistika a logy
+- `GET /api/admin/stats` - Štatistika
 - `POST /api/admin/send-bulk-email` - Hromadný email
 
-## Build pre Produkciu
+## Heslo do administrácie
 
+**Demo heslo**: `admin123`
+
+⚠️ **V produkcii zmeniť na silné heslo v kóde!**
+
+## Priradený formulár
+
+### Download Modal
+
+```typescript
+interface DownloadRequest {
+  email: string;        // Emailová adresa
+  fileName: string;     // Meno súboru
+  filePath: string;     // Cesta k súboru
+}
+```
+
+### Hromadný Email
+
+```typescript
+interface BulkEmailRequest {
+  recipients: string[];  // Pole emailov
+  subject: string;       // Predmet
+  message: string;       // HTML správa
+}
+```
+
+## Databázové tabuľky
+
+### smtp_config
+- Uloženie SMTP nastavení
+
+### downloads
+- Email, súbor, IP, čas, useragent
+
+### email_logs
+- Históriu odoslaných emailov
+
+### uploaded_files
+- Zoznam uploadnutých súborov a zložiek
+
+## Produkcia
+
+### Príprava
 ```bash
+# Build
 npm run build
+
+# Test build
 npm start
 ```
 
-## Bezpečnosť
+### Environment premenné
+Vytvorte `.env.local`:
+```
+# Niečo budúce features
+```
 
-### Nápravy
-- ✅ HTTPS v produkcii (nastavit na serveri)
-- ✅ Validácia email adresy
-- ✅ Záznamy IP adres
-- ✅ Heslo chrané v DB
-- ⚠️ **Zmeniť default heslo**
-- ⚠️ **Implementovať autentifikáciu pre admin**
-- ⚠️ **CORS politika podľa potreby**
+## Troubleshooting
 
-## Budúce Vylepšenia
+### Email nejde
+1. Skontrolujte SMTP nastavenia
+2. Povoľte menej bezpečné aplikácie (Gmail)
+3. Skontrolujte logy v Admin > Štatistika
 
-- [ ] Autentifikácia s JWT
-- [ ] Role-based access control
-- [ ] Šifrovanie hesiel
-- [ ] Rate limiting
-- [ ] File upload formulár
-- [ ] Stahovanie celých priečinkov ZIP-om
-- [ ] Notifikácie v reálnom čase
-- [ ] Analytics a reporty
+### Databáza not found
+```bash
+curl http://localhost:3000/api/init-db
+```
+
+### Port 3000 je obsadený
+```bash
+PORT=3001 npm run dev
+```
 
 ## Licencia
 
 MIT
 
-## Podpora
+## Autor
 
-V prípade problémov alebo otázok, kontaktujte administrátora.
+Vytvorené s ❤️ pre správu downloadov
