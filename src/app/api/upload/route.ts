@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
     await writeFile(filePath, buffer);
 
     // Register in database so admin UI can list & generate links
-    const uploaded = await registerUploadedFile(file.name, filePath, file.size, false, null);
+    const uploaded = await registerUploadedFile(file.name, filePath, file.size, false);
 
     console.log(`✓ Upload success: ${file.name} -> ${fileName}`);
 
