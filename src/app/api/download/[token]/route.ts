@@ -9,10 +9,10 @@ const UPLOAD_DIR = process.env.NODE_ENV === 'production'
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { token: string } }
+  { params }: { params: Promise<{ token: string }> }
 ) {
   try {
-    const token = params.token;
+    const { token } = await params;
     const db = getDb();
 
     // Get link info
