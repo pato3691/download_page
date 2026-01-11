@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 export async function GET(request: NextRequest) {
   try {
     const db = await getDb();
-    const [links] = await await db.execute(`
+    const [links] = await db.execute(`
       SELECT * FROM download_links 
       WHERE is_active = 1 
       ORDER BY created_at DESC
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     const db = await getDb();
     const token = uuidv4();
 
-    await await db.execute(`
+    await db.execute(`
       INSERT INTO download_links (
         token, file_id, file_name, original_file_name, 
         description, max_downloads, expires_at, created_by
@@ -80,7 +80,7 @@ export async function DELETE(request: NextRequest) {
     }
 
     const db = await getDb();
-    await await db.execute('UPDATE download_links SET is_active = 0 WHERE token = ?', [token]);
+    await db.execute('UPDATE download_links SET is_active = 0 WHERE token = ?', [token]);
 
     return NextResponse.json({
       success: true,

@@ -4,6 +4,7 @@ import path from 'path';
 import { writeFile, mkdir } from 'fs/promises';
 import { v4 as uuidv4 } from 'uuid';
 import { registerUploadedFile } from '@/lib/file-manager';
+import { getDb } from '@/lib/db';
 
 const UPLOAD_DIR = process.env.NODE_ENV === 'production'
   ? '/var/www/html/down/public/uploads'
@@ -46,6 +47,26 @@ export async function POST(request: NextRequest) {
     // Register in database so admin UI can list & generate links
     const uploaded = await registerUploadedFile(file.name, filePath, file.size, false);
 
+    // Auto-generate a download link for the uploaded file
+    const db = await getDb();
+    const token = uuidv4();
+    await db.execute(
+      `INSERT INTO download_links (
+        token, file_id, file_name, original_file_name,
+        description, max_downloads, expires_at, created_by
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+      [
+        token,
+        uploaded.file_id,
+        file.name,
+        file.name,
+        null,
+        null,
+        null,
+        'auto-upload'
+      ]
+    );
+
     console.log(`✓ Upload success: ${file.name} -> ${fileName}`);
 
     return NextResponse.json({
@@ -54,6 +75,8 @@ export async function POST(request: NextRequest) {
       originalFileName: file.name,
       fileId: uploaded.file_id,
       size: file.size,
+      downloadToken: token,
+      downloadUrl: `/api/download/${token}`
     });
   } catch (error) {
     console.error('Upload error:', error);
