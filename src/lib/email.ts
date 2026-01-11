@@ -7,10 +7,10 @@ export async function sendEmail(
   htmlBody: string
 ): Promise<boolean> {
   try {
-    const db = getDb();
-    const smtpConfig = db
-      .prepare('SELECT * FROM smtp_config WHERE active = 1 LIMIT 1')
-      .get() as any;
+    const db = await getDb();
+    const [[smtpConfig]] = await db.execute(
+      'SELECT * FROM smtp_config WHERE active = 1 LIMIT 1'
+    ) as any;
 
     if (!smtpConfig) {
       throw new Error('Nie je nakonfigurovaný SMTP server');
@@ -34,19 +34,25 @@ export async function sendEmail(
     });
 
     // Záznamovanie v databáze
-    db.prepare(
+    await db.execute(
       `INSERT INTO email_logs (recipient_email, subject, status, sent_at) 
-       VALUES (?, ?, 'sent', CURRENT_TIMESTAMP)`
-    ).run(toEmail, subject);
+       VALUES (?, ?, 'sent', CURRENT_TIMESTAMP)`,
+      [toEmail, subject]
+    );
 
     return true;
   } catch (error) {
-    const db = getDb();
-    const errorMsg = error instanceof Error ? error.message : 'Unknown error';
-    db.prepare(
-      `INSERT INTO email_logs (recipient_email, status, error_message) 
-       VALUES (?, 'failed', ?)`
-    ).run(toEmail, errorMsg);
+    try {
+      const db = await getDb();
+      const errorMsg = error instanceof Error ? error.message : 'Unknown error';
+      await db.execute(
+        `INSERT INTO email_logs (recipient_email, status, error_message) 
+         VALUES (?, 'failed', ?)`,
+        [toEmail, errorMsg]
+      );
+    } catch (logError) {
+      console.error('Error logging email failure:', logError);
+    }
 
     console.error('Email sending error:', error);
     return false;
